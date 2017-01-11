@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+  <title>Jen Tobě Králi zní dík</title>
+  <author></author>
+  <copyright></copyright>
+  <hymn_number></hymn_number>
+  <presentation></presentation>
+  <ccli></ccli>
+  <capo print="false"></capo>
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <user1></user1>
+  <user2></user2>
+  <user3></user3>
+  <theme></theme>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <lyrics>[V1]
+.F#7                H
+ Jen Tobě Králi zní dík, 
+.               E
+ chválíme jméno Tvé,
+.             F#7
+ zvedáme ruce k slávě Tvé.
+.                   H
+ Jen Tobě Králi zní dík.
+[V2]
+.          A7
+ Tvé jméno chválit budu ráno, 
+.G                   D            A
+ chválit po nocích, chválit celý den.
+ Ježíši, budu Tvé jméno stále vzývat.
+.    H
+ Jsi můj Pán svrchovaný.</lyrics>
+  <linked_songs/>
+  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+</song>
