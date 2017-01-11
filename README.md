@@ -1,7 +1,7 @@
 # AgapeSongs
 Písničky z AC Agape
 <hr>
-<b>Pokud jste si již AC Agape písničky nainstalovali, stačí:
+<b>Pokud jste si již AC Agape písničky nainstalovali, stačí:</b>
  1. Rozjet aplikaci "MGit"
  2. Kliknout na "OpenSong"
  3. Záleží na tom, co chcete dělat:
