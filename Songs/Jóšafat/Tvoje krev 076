@@ -4,38 +4,51 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.Ami
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>.Ami
  Tvoje krev, pro můj hřích prolitá,
 .G6                  F
  Tvoje krev, svatá a nevinná,
-.C                   D       G    Hmi7(b5) E
+.C                   D       G  Hmi7(b5) E
  Tvoje krev mé srdce omývá a chrání.
-[V2]
 .Ami
  Tělo Tvé, na kříži zlomené,
-.G5                F
+.G6                F
  tělo Tvé, do krve zraněné,
 .Dmi                Bb        Gmi7  C
  tělo Tvé, slabosti podlehnout brání. 
-[V3]
 . Dmaj7/9 Emi7
  Já věřím, že v Tvé krvi vítězství mám,
  já věřím, že Tvé tělo sílu mi dá
-.       Gmi7  C     D              Gmi7 C D
+.       Gmi7  C     D             Gmi7 C D
  vpravdě stát a být věrný, sám sebe dát.</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -3,44 +3,66 @@
   <title>Aj keby nekvitol fík 022</title>
   <author></author>
   <copyright></copyright>
-  <hymn_number></hymn_number>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.                 Emi              CΔ
- Aj keby nekvitol fík, aj keby nerodila zem,
-.        Ami               G             H7
- aj keby nebesá nedoniesli svetlo v nové ráno.
-.     Emi                       CΔ
- A aj keď polia zlyhajú a sýpky prázdne zostanú,
-.       Ami          G                H7
- aj keď všetko vôkol volá, že Boh nie je.
- 
-[C]
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•90
+.                 Emi
+ Aj keby nekvitol fík,
+.        C∆
+ aj keby nerodila zem,
+.        Ami               G            
+ aj keby nebesá nedoniesli svetlo
+.       H7
+ v nové ráno.
+ A aj keď polia zlyhajú
+ a sýpky prázdne zostanú,
+ aj keď všetko vôkol volá,
+ že Boh nie je.
 .     G
  Áno, práve vtedy pozdvihnem svoj hlas
-.  D
- a budem spievať chvaly.
-.          CΔ                 Ami     D
- Uprostred trápení, uprostred súžení, Ježíš je Pán.
+.  D            (dim)
+ a budem spievať chvály.
+.          CΔ                 Ami
+ Uprostred trápení, uprostred súžení,
+.D
+ Ježíš je Pán.
 .CΔ   Ami      CΔ       H7
  Lebo verím, v Neho verím.
- 
-[V2]
- Keď blízký prjateľ opustí, a je tak ťažké odpustiť
+.(Emi,Ami,C∆,H7;  Emi,Ami,C,H7)
+ Keď blízký priateľ opustí,
+ a je tak ťažké odpustiť
  keď sa múry v mojom vnútri zrazu rúcajú
- keď se zdá, že to neskončí, slzy sa tlačia do očí
- viem, že stojíš blízko tých, čo v Teba dúfajú.</lyrics>
-  <linked_songs/>
+ keď se zdá, že to neskončí,
+ slzy sa tlačia do očí
+ viem, že stojíš blízko tých,
+ čo v Teba dúfajú.</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

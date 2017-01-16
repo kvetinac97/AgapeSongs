@@ -4,27 +4,44 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.D       G      A            F#     Hmi
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•6/8
+.A  H  (E)
+.E       A      H            Gmi#   C#mi
  Ježíši, mám Tě rád, toužím Tě uctívat.
-.         G         A        F#       Hmi
- Přicházím před Tvůj trůn, chválu Ti vzdám.
-.         G      A       F#      Hmi
+.         A         H        Gmi#   C#mi
+ Přicházím před Tvůj trůn,chválu Ti vzdám.
+.         A      H       Gmi#   C#mi
  Srdce mám hladové a duši žíznivou,
-.        G     A             D
+.        A     H             E
  jen Pane, po Tobě, po lásce Tvé.</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

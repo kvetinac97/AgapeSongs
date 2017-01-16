@@ -4,38 +4,48 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo>125</tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.            Gmi
- Keby si dnes mal
-.              (Eb) D
- aspoň takú malú vieru, 
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes>123</notes>
+  <lyrics>•130
+.            Gmi              (Eb)D
+ Keby si dnes mal aspoň takú malú vieru,
 .                 Gmi
  vrchy by si prenášal.
-[V2]
-.     Cmi F          Dmi Gmi
+
+.    Cmi F        Dmi Gmi
  Povedal by si tomuto vrchu
 .       D         Gmi
  presuň sa, presuň sa
-.                  D
- A vrch by sa presunul,
-.               Gmi
- presunul, presunul
-.                D
- v meně Pána Ježiša,
-.            Gmi
- Ježiša, Ježiša.</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+.                  D                   Gmi
+ A vrch by sa presunul, presunul, presunul
+.                D              Gmi
+ v meně Pána Ježiša, Ježiša, Ježiša.</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

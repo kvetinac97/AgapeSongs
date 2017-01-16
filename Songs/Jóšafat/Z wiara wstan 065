@@ -4,24 +4,32 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number>065</hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.        D       A       G
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>.        D       A       G
  Z wiarą wstań i śpiewaj pieśń,
  o wspaniałym Królu chwał.
  Bo w słabości siłę masz,
  z niepewności wyjście znasz.
-[C]
 .D              G     A
  Wołaj ze wszystkich sił,
  w każdą ze świata stron.
@@ -29,20 +37,26 @@
  Jezus, Zbawiciel nasz,
 .G     A        D
  Panem Nieba jest.
-[V2]
+
  W prawdzie wstań
  i śpiewaj pieśń,
  do złamanych śpiewaj serc.
  Mogą poznać Jego moc,
  moc co leczy, Króla moc.
-[V3]
+
  Choć złamane skrzydła masz,
  wstań Kościele, Pana chwal.
  Niech znów zabrzmi
  Twoja pieśń,
  z łaski w górę wzbijesz się.
  </lyrics>
-  <hymn_number>065</hymn_number>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

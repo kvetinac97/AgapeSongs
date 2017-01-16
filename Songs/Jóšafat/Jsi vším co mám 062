@@ -4,20 +4,31 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.   G            Ami6    D4-3 (G)          G
- Ve stínu křídel Tvých, v Tobě skrýt se smím.
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>.   G            Ami6        
+ Ve stínu křídel Tvých,
+.D4/3            G
+ v Tobě skrýt se smím.
 . D(F#)            C(E)       
  Smím cítit vůni a lásku Tvou,
 . Emi              C
@@ -25,12 +36,10 @@
  Život můj je Tvůj, Tobě chválu vzdám.
  Chci navždy být ve Tvém náručí,
  jsi jedinou mou nadějí.
-[P]
 .G                Ami6
  Cestou Tvou chci jít,
 . D            G    C D
  toužím víc Tě znát.
-[C]
 .G    D(Fis) C   D
  Jsi vším co mám,
 .G    D(Fis) C        D
@@ -39,7 +48,13 @@
  Jsi vším co mám,
 . Ami         D     G    C D
  jen toužím víc Tě znát.</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

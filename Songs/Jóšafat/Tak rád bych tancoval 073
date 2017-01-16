@@ -4,48 +4,64 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number>073</hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•127
 .A            E
  Tak rád bych tancoval,
 .F#mi         D
  zachránil mě Pán.
  Zpíval bych spoustu let,
  šťastným jsem se stal.
-[V2]
 .A
  Pane, mé srdce puká,
-.F#mi
+.E
  chce říct cos udělal.
 .F#mi
  O tom jak si mě změnil
 .  D         E
  a mé hříchy vymazal.
-[V3]
  Chci o tom zakřičet,
  ze všech střech zazpívat.
  O tom, že vím, že Bůh je se mnou
  a ne proti mě.
-[V4]
 .D                             A
  Každý nyní zpívá, že jsme tak šťastní.
  Každý nyní tančí, že jsme tak šťastní.
-.Hmi                         D
- Jen zahlédnout Tvojí tvář a vidět jak se usmíváš.
-. Hmi               D                           A
- A andělé jak slaví, hej, že radost přišla k nám.
+.Hmi
+ Jen zahlédnout Tvojí tvář
+.  D
+ a vidět jak se usmíváš.
+.  Hmi               D           
+ A andělé jak slaví, hej,
+ že radost přišla k nám.
  </lyrics>
-  <hymn_number>073</hymn_number>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -3,41 +3,50 @@
   <title>Tyś jak skała</title>
   <author></author>
   <copyright></copyright>
-  <hymn_number></hymn_number>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
-.D
- Tyś jak skała,
-.G            D  G
- Tyś jak wzgórze,
-.D
- Panie nasz
-.Emi7/A   D   Emi7/A
- Boże nasz.
-[V2]
- Tyś jak wiatr
- w swej naturze,
- Tyś jest Stwórcą
- wszystkich nas.
-[V3]
- Światłem swym
- rozświetlasz drogę,
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•100
+.D              G            D  G
+ Tyś jak skała, Tyś jak wzgórze,
+.D          Emi7  D    Emi7
+ Panie nasz Boże nasz.
+
+ Tyś jak wiatr w swej naturze,
+ Tyś jest Stwórcą wszystkich nas.
+
+ Światłem swym rozświetlasz drogę,
  która prosto wiedzie nas.
-[V4]
+
  Tam, gdzie źródło Twej miłości,
  gdzie radośnie płynie czas.
  Alelu, aleluja</lyrics>
-  <linked_songs/>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

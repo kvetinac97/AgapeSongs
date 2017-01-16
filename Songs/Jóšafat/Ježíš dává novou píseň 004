@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>ZJežíš dává novou píseň</title>
+  <title>Ježíš dává novou píseň</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -9,7 +9,7 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay>3</predelay>
+  <predelay></predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
@@ -25,9 +25,8 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>[V1]
-;F# F#
-.Hmi                          F#
+  <lyrics>•116
+.Hmi                          F#mi
  Ježíš dává novou píseň naším rtům,
 .                       Hmi
  Ježíš dává novou píseň všedním dnům.
@@ -35,31 +34,27 @@
  Tu píseň my si nenecháme nikým vzít,
 .F#                              Hmi
  ona bude v naších srdcích stále znít.
-
-[V2]
+ 
  Ježíš je náš Pán a my jsme jedno v Něm,
  navzájem se Jeho láskou milujem.
  I když jsme každý jiný, On nás spojuje,
  kdo chce ať se spolu s námi raduje.
-
-[V3]
+ 
  V Ježíši jsme všichni jedna rodina,
  čekáme až udeří ta hodina.
  Kdy Pán se vrátí a my k němu půjdeme,
  na věky se radovat s ním budeme.
-
-[V4]
+ 
  V Ježíši je poražena temnota,           
- Boží moc je stylem mého života.             
+ Boží moc je stylem méhoživota.         
  Na kříži nám Pán dal nejen spasení,    
  Jeho ranami jsme také uzdraveni.     
-
-[V5]
+ 
  Mé starosti On proměnil v radosti,
  klaním se mu, zahrnul mě milostí.
  Tancujem a radujem se, jásáme,
  Čest a chválu svému Pánu vzdáváme.
-[V6]
+
  Laj laj laj laj......</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>

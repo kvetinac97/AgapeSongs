@@ -4,63 +4,58 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•60
 .     C            G
- Milujeme, ač nevidíme,
-.        C          G
+ Milujeme,ač nevidíme,
  věříme v Něj a jásáme.
-.        C
- Nevýslovnou radostí
-.      G
- plnou slávy, 
-.F         Ami
- docházíme cíle
-.     G
- víry své.
-.         C
- Zlatem a stříbrem
-.            G
- On nezaplatil,
-.      C             G
+ Nevýslovnou radostí plnou slávy,
+.F         Ami       G
+ docházíme cíle víry své.
+ Zlatem a stříbrem On nezaplatil
  pomíjivým nás nekoupil.
-[P]
-.        C
- Povolal nás
-.   D      Emi
- do světla svého,
+.        C      D      Emi
+ Povolal nás do světla svého,
 .          F
  skrze Něj máme přístup
 .C(E)           Dsus4 D
  do bran nebeských.
-[C]
 .            C         G
  Jsme obmytí krví Beránka
 .         C            G
  na místě zvaném Golgota,
-.       F
- otroky hříchu
-.  C(E)       Dsus4 D
- nemusíme déle být.
-.             C            G
+.       F       C(E)       Dsus4 D
+ otroky hříchu nemusíme déle být.
  Na kříži svůj život dokonal,
-.        C                  G
  třetího dne však z mrtvých vstal,
-.       F
- otroky hříchu
-.   C(E)       Dsus4 D
- nemusíme déle být.</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+ otroky hříchu nemusíme déle být.</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

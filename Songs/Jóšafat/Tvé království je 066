@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
   <title>Tvé království je</title>
-  <lyrics>[V1]
- Tvé království je království všech věků,
- tvá vláda trvá po všechna pokolení.
- Hospodin podpírá všechny padající
- a pozvedá všechny sklíčené.
-
-[V2]
- Hospodin je spravedlivý ve všech svých cestách
- a věrný ve všech svých skutcích.
-
-[V3]
- Hospodin je blízko všem, kdo k němu volají,                                   
- všem, kdo ho vzývají v pravdě vzývají.
-
-</lyrics>
   <author></author>
   <copyright></copyright>
-  <hymn_number></hymn_number>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>
+ Tvé království je království všech věků,
+ tvá vláda trvá po všechna pokolení.
+
+ Hospodin podpírá všechny padající
+ a pozvedá všechny sklíčené.
+
+ Hospodin je spravedlivý
+ ve všech svých cestách
+ a věrný ve všech svých skutcích.
+
+ Hospodin je blízko všem
+ kdo k němu volají,        
+ všem, kdo ho vzývají v pravdě vzývají.</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -4,24 +4,33 @@
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
-  <ccli></ccli>
+  <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
-  <theme></theme>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <lyrics>[V1]
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
+  <lyrics>•124
 .G  D             A     D
  Úpätím hôr tečie rieky prúd,
  on dáva nádej, dáva voľnosť od pút.
  Vzdialený zvuk sa silnějším zdá,
  tá rieka sa blíži a už prichádza k nám.
-[C]
 .     D               G       D
  Ten života prúd nohy láka k tancu,
 .                   A      D
@@ -30,17 +39,26 @@
  života prúd plní ústa smiechom,
 .  G   D         A          D
  nádherná rieka prišla aj k nám.
-[V2]
+
  Nebeský prúd je života zdroj,
  jeho dotyk má moc zmenit život tvoj.
  A ten, kto váhal, len pri brehu stál,
  je smädom plný po tom, čo dal Pán.
-[B]
+
  Tak poďme hore, tam k výšinám,
  kde v sláve večnej býva Pán.
  A rieky prúd, on sám smer dá,
- ja chválu vďačnú v tanci Synovi vzdám !</lyrics>
-  <hymn_number></hymn_number>
-  <linked_songs/>
+ ja chválu vďačnú v tanci Synovi vzdám !
+
+
+.DGDGA    DGDGDAD</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
