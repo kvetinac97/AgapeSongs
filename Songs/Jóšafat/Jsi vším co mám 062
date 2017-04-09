@@ -8,8 +8,8 @@
   <capo print="false"></capo>
   <tempo></tempo>
   <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
+  <duration>10</duration>
+  <predelay>2</predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
