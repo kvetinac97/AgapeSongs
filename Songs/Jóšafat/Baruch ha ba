@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Tvé království je</title>
+  <title>Baruch ha ba</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
+  <capo print=""></capo>
+  <tempo>80</tempo>
   <time_sig></time_sig>
   <duration></duration>
   <predelay></predelay>
@@ -25,21 +25,15 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.E (A)                               (E)
- Tvé království je království všech věků,
-.H7           A                 E
- tvá vláda trvá po všechna pokolení.
-
- Hospodin podpírá všechny padající
- a pozvedá všechny sklíčené.
-
- Hospodin je spravedlivý
- ve všech svých cestách
- a věrný ve všech svých skutcích.
-
- Hospodin je blízko všem
- kdo k němu volají,        
- všem, kdo ho vzývají v pravdě vzývají.</lyrics>
+  <lyrics>•80
+.Emi         Ami          C    D  Emi
+Baruch ha ba b'shem Adonai, haleluja.
+. A       Emi    A      Emi
+Baruch ha ba b'shem Adonai,
+. A       Emi    C  D   Emi C  D  Emi
+Baruch ha ba b'shem Adonai, haleluja.
+.C  D Emi C   D Emi C   D  Emi
+Haleluja, haleluja, haleluja.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -48,5 +42,4 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
