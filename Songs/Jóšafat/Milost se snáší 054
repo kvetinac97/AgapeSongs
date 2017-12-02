@@ -30,7 +30,7 @@
  Milost se snáší, k nám z nebe se snáší.
 .D          G         D Hmi A
  Milost se snáší, jak jarní déšť.
-.D         G         Hmi        A     D A
+.D         G         Hmi        A     D G D A
  Milost se snáší, už všechny nás přikrývá.
  
 .D   A         Hmi     A
@@ -50,5 +50,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

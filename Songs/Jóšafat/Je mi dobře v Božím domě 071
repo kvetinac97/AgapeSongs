@@ -25,17 +25,19 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.         F            C
+  <lyrics> T110
+.         F            C
  Je mi dobře v Božím domě,
 .         Bb
  je mi dobře Pane můj.
-
+ 
  Ježíš má mě rád, to vím.
-
+ 
  Stejně rád Tě mám, chci Ti říct,
  že jsem s Tebou.
-
- </lyrics>
+ 
+ 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -44,5 +46,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
