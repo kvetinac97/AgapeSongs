@@ -7,7 +7,7 @@
   <hymn_number></hymn_number>
   <capo print="false"></capo>
   <tempo></tempo>
-  <time_sig></time_sig>
+  <time_sig>6/8</time_sig>
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•74
+  <lyrics> •74
 .E
  Vznešený, tak jemný
 .    A       H      E
@@ -35,7 +35,8 @@
 .   H     A H    C#mi H         A H
  Ty stále čakaš, novú nádej nám dáš.
 .C#mi H     A  H    C#mi    H        A
- Ty odnímaš hriech, v tichu modlitba znie.</lyrics>
+ Ty odnímaš hriech, v tichu modlitba znie.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

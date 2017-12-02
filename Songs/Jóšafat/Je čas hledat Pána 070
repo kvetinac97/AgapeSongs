@@ -6,7 +6,7 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <tempo></tempo>
+  <tempo>199</tempo>
   <time_sig></time_sig>
   <duration></duration>
   <predelay></predelay>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•120
+  <lyrics> •120
 .    Emi7               D
  Je čas hledat Pána, je čas znovu povstat,
 .   C                     Emi7
@@ -43,7 +43,8 @@
 .      G              Ami7
  Vždyť Bůh je s námi, Bůh je s námi,
 .  G            C           D      G
- Bůh je s námi, jistě se jí zmocníme !</lyrics>
+ Bůh je s námi, jistě se jí zmocníme !
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

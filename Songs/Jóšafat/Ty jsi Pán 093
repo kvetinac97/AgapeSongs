@@ -6,10 +6,10 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
+  <tempo>60</tempo>
+  <time_sig>4/4</time_sig>
   <duration></duration>
-  <predelay></predelay>
+  <predelay>1</predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>

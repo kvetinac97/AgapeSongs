@@ -6,8 +6,8 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
+  <tempo>64</tempo>
+  <time_sig>4/4</time_sig>
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•64
+  <lyrics> •64
 .D           G
  Ať Tvá živá voda
 .     D   A    D
@@ -46,7 +46,8 @@
  Ježíši, ó, Duchu svatý,
 .Hmi G    A     D   G A
  můj Otče nebeský.
- </lyrics>
+ 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

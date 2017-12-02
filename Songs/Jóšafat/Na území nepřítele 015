@@ -9,7 +9,7 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay></predelay>
+  <predelay>1</predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•124
+  <lyrics> •124
 .     G
  Na území nepřítele šel jsem,
  vzal jsem zpět co ukradl mi,
@@ -47,13 +47,14 @@
  pod nohama mám,
 .G         D      C   G
  ďábla pod nohama mám.
-
+ 
  Na území nepřítele pojďme,
  berme zpět, co ukradl nám.
-
+ 
  Na území nepřítele já jdu, 
  beru zpět, co ukradl mi.
-.G,D,C,D,E, G,D,C,G,D#F</lyrics>
+.G,D,C,D,E, G,D,C,G,D#,F
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

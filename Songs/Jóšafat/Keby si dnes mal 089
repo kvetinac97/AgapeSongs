@@ -6,7 +6,7 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <tempo>125</tempo>
+  <tempo>129</tempo>
   <time_sig></time_sig>
   <duration></duration>
   <predelay></predelay>
@@ -25,20 +25,25 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes>123</notes>
-  <lyrics>•130
-.            Gmi              (Eb)D
+  <lyrics> •130
+.            Dmi                  A
  Keby si dnes mal aspoň takú malú vieru,
-.                 Gmi
+.                 Dmi A
  vrchy by si prenášal.
-
-.    Cmi F        Dmi Gmi
+ 
+.    Gmi              Dmi
  Povedal by si tomuto vrchu
-.       D         Gmi
+.       A         Dmi
  presuň sa, presuň sa
-.                  D                   Gmi
+.                  A                   Dmi
  A vrch by sa presunul, presunul, presunul
-.                D              Gmi
- v meně Pána Ježiša, Ježiša, Ježiša.</lyrics>
+.                A              Dmi
+ v meně Pána Ježiša, Ježiša, Ježiša.
+ 
+.Dmi   A                Dmi
+ Vane, vane, Duch Svätý vane,
+ vane, vane, vane vane nám.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -47,5 +52,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -9,7 +9,7 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay></predelay>
+  <predelay>13</predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
@@ -25,15 +25,16 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•
+  <lyrics> •
 . Emi      D             Ami
  Hospodine, kdo je podobný Tobě?
 .Emi             D
  Není nikdo podobný Tobě,
-.A          Ami      D
+.A          Ami      
  mezi bohy, ó, Pane.
 .Emi           D                 C∆
- Není takových skutků, jako jsou Tvoje.</lyrics>
+ Není takových skutků, jako jsou Tvoje.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

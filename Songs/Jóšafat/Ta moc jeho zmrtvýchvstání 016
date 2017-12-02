@@ -9,7 +9,7 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay></predelay>
+  <predelay>1</predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•150
+  <lyrics> •150
 .Dmi
  Ta moc jeho zmrtvýchvstání,
 .                   A
@@ -53,7 +53,8 @@
  není nic většího nad to,
 .                       Dmi
  že jsem v Kristu svoboden.
- </lyrics>
+ 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -62,5 +63,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
