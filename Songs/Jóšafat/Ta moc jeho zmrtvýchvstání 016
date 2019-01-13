@@ -6,7 +6,7 @@
   <presentation></presentation>
   <hymn_number>016</hymn_number>
   <capo print="false"></capo>
-  <tempo></tempo>
+  <tempo>123</tempo>
   <time_sig></time_sig>
   <duration></duration>
   <predelay>1</predelay>

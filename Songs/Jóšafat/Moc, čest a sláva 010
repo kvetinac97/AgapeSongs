@@ -6,13 +6,13 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print=""></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
+  <tempo>120</tempo>
+  <time_sig>4/4</time_sig>
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,8 +25,9 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•96
+  <lyrics> •104
 .H Ebmi E
+ 
 .H                 H7
  Moc, čest a sláva,síla a chvála,
 .G#mi                E
@@ -57,4 +58,5 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
 </song>

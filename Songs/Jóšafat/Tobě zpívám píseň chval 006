@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay>1</predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -26,6 +26,7 @@
   <restrictions></restrictions>
   <notes></notes>
   <lyrics> •72;4/4
+.E 4x A 4x E 4x A 4x E držet
 .E                 A              H
  Tobě zpívám píseň chval, jsi můj Pán.
 .                E             C#mi
@@ -34,7 +35,7 @@
  Neboť předivné a svaté jméno máš.
 </lyrics>
   <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
+  <pad_file>Audio file link</pad_file>
   <custom_chords></custom_chords>
   <link_youtube></link_youtube>
   <link_web></link_web>

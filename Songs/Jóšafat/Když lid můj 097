@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,25 +25,26 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•76
-.C#mi    H         C#mi    H
+  <lyrics> •76, trans -1
+.Dmi    C         Dmi    C
  Když lid můj, který zná jméno mé
-.   Amaj7        F#mi     E  G#
+.   Bmaj7        Gmi     F  A
  se sám v modlitbách pokoří.
-.C#mi      H         C#mi      H
+.Dmi      C         Dmi      C
  Když mou tvář budou stále hledat
-.      Amaj7      F#mi    G#sus4 G#
+.      Bmaj7      Gmi    Asus4 A
  a když své cesty zlé opustí.
-
-.C#mi     F#mi   H       E
+ 
+.D      Gmi      C       F
  Já vyslyším je, já vyslyším je,
-.F#mi       C#mi    G#sus4 G#
+.Gmi       Dmi    Asus4 A
  hřích odpustím jim rád.
-.C#mi   F#mi     H       E
+.D     Gmi     C       F
  Já uzdravím je, já uzdravím je,
-.F#mi     C#mi     F#mi G#    C#mi
+.Gmi     Dmi     Gmi A    Dmi
  já jejich zem mám rád, mám rád.
- </lyrics>
+ 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -52,5 +53,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

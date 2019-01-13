@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,14 +25,14 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•136
+  <lyrics> •136
 .Hmi       Emi      A      Hmi   Emi
  Baruch Adonai, Elohey Yisrael Adonai,
 .             G    Hmi    Emi
  velký je náš Pán, Baruch Adonai, 
 .   A       D      Emi  A            Hmi
  Elohey Yisrael Adonai, velký je náš Pán, 
-
+ 
 .D    Emi    G       A
  Min ha-olam, V´ad ha-olam,
 .D      Emi   A             Hmi
@@ -41,7 +41,7 @@
  Min ha-olam, V´ad ha-olam,
 .Hmi      Emi            F#  G A
  Požehnaný Pán, Izraele Bůh. 
-
+ 
 .Hmi         G    D      A
  Tak ať Mu národy chválu vzdávají 
 . Hmi  G     D    A
@@ -51,7 +51,8 @@
 .Emi    Hmi   A    Hmi
  A Izrael řekne Amen.
 .Emi    Hmi  A   F# Hmi (F#)     Gmi  D
- A Izrael ať zpívá. </lyrics>
+ A Izrael ať zpívá. 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -60,5 +61,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

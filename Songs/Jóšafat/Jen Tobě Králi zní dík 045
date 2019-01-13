@@ -25,20 +25,20 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.E7                A
+  <lyrics>.F#7                H
  Jen Tobě Králi zní dík, 
-.               D
+.               E
  chválíme jméno Tvé,
-.             E7
+.             F#7
  zvedáme ruce k slávě Tvé.
-.                   A
+.                   H
  Jen Tobě Králi zní dík.
-.          G7
+.          A7
  Tvé jméno chválit budu ráno, 
-.F                   C            G
+.G                   D            A
  chválit po nocích, chválit celý den.
  Ježíši, budu Tvé jméno stále vzývat.
-.    A
+.    H
  Jsi můj Pán svrchovaný.
 </lyrics>
   <linked_songs></linked_songs>
@@ -49,5 +49,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
