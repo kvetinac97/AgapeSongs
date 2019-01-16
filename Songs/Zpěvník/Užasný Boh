@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Pojďme spolu stát</title>
+  <title>Užasný Boh</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -25,22 +25,15 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>[V1]
-.Bb          F  Bb
- Pojďme spolu stát
-.   Eb   Bb F Bb
- na místě svatém.
-.            Fmi
- Všude kolem nás,
-.       G          C Bb
- já to vím jsou andělé.
-[V2]
- Pojďme spolu stát
- a chválit Ježíše
-.               Eb
- My dnes chceme stát,
-.           Bb      F      Eb Bb
- stát před Tebou a chválit Tě.</lyrics>
+  <lyrics>• 78
+.Hmi(Cmi)    G(G#)
+ Úžasný Boh, úžasný Pán.
+.  Emi(Fmi)  A(Bb)  F#mi(Gmi)G(G#)
+ My chválíme Ťa, my chválíme Ťa,
+.   Emi(Fmi) F#(G)    Hmi(Cmi)H(C)
+ my chválíme Ťa, úžasný Boh.
+
+ Nádherný Boh...</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
