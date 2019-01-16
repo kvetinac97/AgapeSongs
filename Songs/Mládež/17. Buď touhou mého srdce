@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Svatý, Svatý, Bůh všemocný</title>
+  <title>Buď touhou mého srdce</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -25,34 +25,16 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>[V1]
-.H
- Svatý, Svatý, Bůh všemocný,
-.              (A)
- který přichází se svou láskou
- a požehnáním do mých nesnází.
-[C]
-.            F#      E     H
- Svaté jméno máš, je nádherné,
- po spravedlivých cestách vodíš mne,
- zaslíbení Tvá jsou neměnná,
-.       E     F#      E
- úžasná je láska Tvá
-[V2]
- Duchu Svatý, Duchu slávy
- k Tobě přichazím vyznat Ti lásku,
- vzdát Ti chválu celým srdcem svým.
-[C]
- Svaté jméno máš, je nádherné,
- se sténáním se přimlouváš za mne,
- všechno co děláš je pravdivé,
- vodíš mne sám po cestě své.
-[B]
-.G#mi    F#        E        H
- Požehnání a sláva patří Tobě,
-.G#mi    F#              H
- síla, moc, moudrost je Tvá.
-</lyrics>
+  <lyrics>.    C
+ Buď touhou mého srdce
+.   Ami
+ a žádostí mé duše,
+.B          F   C
+ naplň můj život.
+
+ Ježíši, buď touhou mého srdce,
+ Ježíši, jen Ty uhasíš mou žízeň.
+ Jedině Ty.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>

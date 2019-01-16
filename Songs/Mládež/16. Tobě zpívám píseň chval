@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Pojďme spolu stát</title>
+  <title>Tobě zpívám píseň chval</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -9,10 +9,10 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay></predelay>
+  <predelay>1</predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,29 +25,20 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>[V1]
-.Bb          F  Bb
- Pojďme spolu stát
-.   Eb   Bb F Bb
- na místě svatém.
-.            Fmi
- Všude kolem nás,
-.       G          C Bb
- já to vím jsou andělé.
-[V2]
- Pojďme spolu stát
- a chválit Ježíše
-.               Eb
- My dnes chceme stát,
-.           Bb      F      Eb Bb
- stát před Tebou a chválit Tě.</lyrics>
+  <lyrics>.E                 A              H
+ Tobě zpívám píseň chval, jsi můj Pán.
+.                  E            C#mi
+ Já zpívám píseň chval, jsi můj Pán.
+.      A          H           E
+ Neboť předivné a svaté jméno máš.</lyrics>
   <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
+  <pad_file>Audio file link</pad_file>
   <custom_chords></custom_chords>
   <link_youtube></link_youtube>
   <link_web></link_web>
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Buď touhou mého srdce</title>
+  <title>Ježíši, mám Tě rád</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -25,16 +25,14 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.    C          Gsus
- Buď touhou mého srdce
-.   Ami      Ami7
- a žádostí mé duše,
-.  Bb          F C
- naplň můj život.
-
- Ježíši, buď touhou mého srdce
- Ježíši, jen Ty uhasíš mou žízeň.
- Jedině Ty.</lyrics>
+  <lyrics>.D       G      A            F#mi   Hmi
+ Ježíši, mám Tě rád, toužím Tě uctívat.
+.          G         A              F#mi Hmi
+ Přicházím před Tvůj trůn, chválu Ti vzdám.
+.          G     A       F#mi   Hmi
+ Srdce mám hladové a duši žíznivou,
+.         G     A             D
+ jen Pane po Tobě, po lásce Tvé.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
