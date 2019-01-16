@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
   <title>Nádherný</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
   <lyrics>[V1]
-.         Gmi      D#        B(b/D) F(C)
+.         Gmi      Eb        B(b/D) F(C)
  Ve Tvém srdci je soucit a slitování,
-.          Gmi   D#     F
+.          Gmi   Eb     F
  prapor lásky Tvé nade mnou.
-.          Gmi      D#    F        Gmi
+.          Gmi      Eb    F        Gmi
  S Tebou setkat se toužím tváří v tvář,
 .          Cmi       F       Gmi
  navždy v blízkosti Tvé pak stát.
-.       D#       F       A#
+.       Eb       F       Bb
  Jak je nádherné víc Tě znát.
 [C]
-.     D#          A#       F
+.     Eb          Bb       F
  Nádherný, pro mě vším jsi sám,
-.      D#        Gmi       F
+.      Eb        Gmi       F
  nádherný, čistý můj jsi Pán.
-. D#       B(b/D)     F(C)    Gmi
+. Eb       B(b/D)     F(C)    Gmi
  Hoden jsi slávy, jsi králů Král,
-.          D#    F(C)   Gmi   (A#)
+.          Eb    F(C)   Gmi   (Bb)
  jak je nádherné víc Tě znát.
 [V2]
  Ve Tvých rukou je právo, jsi spravedlivý,
@@ -59,14 +35,21 @@
  v srdci vděčnost a lásku mít,
  Jak je nádherné blíž Ti být.
 </lyrics>
-  <linked_songs></linked_songs>
-  <pad_file></pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <abcnotation></abcnotation>
+  <author></author>
+  <copyright></copyright>
+  <hymn_number></hymn_number>
+  <presentation></presentation>
+  <ccli></ccli>
+  <capo print="false"></capo>
+  <key></key>
+  <aka></aka>
+  <key_line></key_line>
+  <user1></user1>
+  <user2></user2>
+  <user3></user3>
+  <theme></theme>
+  <linked_songs/>
+  <tempo></tempo>
+  <time_sig></time_sig>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
