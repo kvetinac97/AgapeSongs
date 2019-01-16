@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Otče náš</title>
-  <author></author>
+  <title>Jen On</title>
+  <author>Petr Zika</author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,20 +25,23 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>Otče náš, jenž jsi na nebesích,
- posvěť se jméno Tvé.
- Vůle Tvá ať je všude známa.
- Prosím, přijď království Tvé.
+  <lyrics>•70
+.D                              G
+ Kdo se může srovnávat s krásou Pána?
+ Kdo se může srovnávat s krásou Pána?
+.            Emi G
+ Kdo je jako On?
+.D                           Asus
+ Jenom On je Bůh, jen On jediný.
+.Emi7               A
+ Svou lásku dokázal na kříži.
 
- Kde je nenávist a zloba,
- ať vládne láska Tvá.
- Kde je válečná vřava,
- mír at' dá ruka Tvá.
+ Není nikdo jiný, kdo by tak miloval.
+ Není nikdo jiný, kdo by nás tak miloval.
+ Kdo je jako On?
 
- Kde je smutek, budiž radost.
- Kde je chlad ať tam je žár.
- Kde je prázdnota a pusto,
- plnost dej prosím sám.</lyrics>
+.G Asus
+ Haleluja.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -47,5 +50,4 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

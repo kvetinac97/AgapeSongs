@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme>;</theme>
-  <alttheme>;</alttheme>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,8 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> •130
- ElPiano 17
+  <lyrics>•120
 .Emi
  Chci žít ve vítězství,všechno dát Tobě.
 .Ami
@@ -35,12 +34,10 @@
  Nikdo nemůže dát život co Ty dáváš.
 .                              C
  Hlavu mi pozvedáš, chci žít s Tebou.
-;Piano 1
 .         D               C
  Větší je ten, kdo žije v nás,
 .              H
  než-li ten ve světě.
- 
 .Emi             H
  Věř, hory mohu přenést,
 .               Ami     H
@@ -48,16 +45,14 @@
 .Emi                H
  Věř, stůj pevně ve víře,
 .            Ami           H
- můžeš dělat cokoli, On tě posílí !
-</lyrics>
+ můžeš dělat cokoli, On tě posílí !</lyrics>
   <linked_songs></linked_songs>
-  <pad_file>Audio file link</pad_file>
+  <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
   <link_youtube></link_youtube>
   <link_web></link_web>
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

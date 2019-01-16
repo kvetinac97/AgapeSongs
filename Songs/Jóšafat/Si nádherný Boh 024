@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme>;</theme>
-  <alttheme>;</alttheme>
+  <theme></theme>
+  <alttheme></alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> •124
+  <lyrics>•124
 .F       G               Ami       C
  Úžasný, tak úžasný si v láske bez hraníc.
 . F          G                Ami(C)
@@ -38,13 +38,13 @@
  si nádherný Boh, ja Ťa ctím.
 .                          C
  Nádherný Boh, nech pieseň znie.
- 
+
  Všemocný tak všemocný Zem Tvoju slávu má.
  Moc Tvojich diel v nej každý rozpozná.
  Krása Tvojho kráľovstva
  spev môjmu srdcu dá.
  Tak zázračný, tak zázračný Boh si.
- 
+
  Dal uzrieť si mi všetky zázraky v nás,
  tou láskou si získal ma,
  veď nič na zemi sa ti v kráse nevyrovná.
@@ -52,16 +52,14 @@
  Mne v duši pieseň znie 
  mne v duši pieseň znie 
  mne v duši pieseň znie 
- Ty si nádherný Boh. 
-</lyrics>
+ Ty si nádherný Boh.</lyrics>
   <linked_songs></linked_songs>
-  <pad_file>Audio file link</pad_file>
+  <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
   <link_youtube></link_youtube>
   <link_web></link_web>
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

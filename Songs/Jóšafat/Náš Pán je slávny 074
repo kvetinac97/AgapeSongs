@@ -9,7 +9,7 @@
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
-  <predelay>1</predelay>
+  <predelay></predelay>
   <ccli></ccli>
   <theme></theme>
   <alttheme></alttheme>
@@ -46,5 +46,4 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
 </song>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Jen On</title>
-  <author></author>
+  <title>Otčenášek náš</title>
+  <author>Jakub Jersák</author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,18 +25,28 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.D                              G
- Kdo se může srovnávat s krásou Pána?
-.            Emi  (G)
- Kdo je jako On?
-.D                       Asus4
- Jenom On je Bůh, jen On jediný.
-.Emi7                  A
- Svou lásku dokázal na kříži.
- Není nikdo jiný, kdo by tak miloval.
- Kdo je jako On.
-.G    Asus4
- Haleluja</lyrics>
+  <lyrics>•90
+.C2 Emi   G         A
+ Otče náš, jenž jsi na nebesích
+.Emi    D        C2
+ posvěť se jméno Tvé.
+.Emi  C2 G       A
+ Vůle Tvá, ať je všude známa.
+.Emi     D                C2
+ Prosím, přijď království Tvé.
+.       Emi
+ Kde je nenávist a zloba
+.G               A
+ ať vládne láska Tvá.
+.       Emi 
+ Kde je válečná vřava,
+.G              A H
+ mír ať dá ruka Tvá.
+. Emi G A  Emi G  A H
+ Kde je smutek, budiž radost,
+ kde chlad, ať tam je žár.
+ Kde je prázdnota a pusto,
+ plnost dej, prosím sám.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -45,6 +55,4 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -6,8 +6,8 @@
   <presentation></presentation>
   <hymn_number></hymn_number>
   <capo print="false"></capo>
-  <tempo>110</tempo>
-  <time_sig>4/4</time_sig>
+  <tempo></tempo>
+  <time_sig></time_sig>
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
@@ -29,13 +29,12 @@
  On je silný Boh Izraelov,
  Jeho slávny hlas bude počuť každý z nás,
  On je silný Boh Izraelov!
- 
+
  Slepým sa oči otvoria,
  hluchí budú počuť Jeho hlas,
  chromí budú stáť, s radosťou tancovať,
  nemí budú spievať.
- 
-</lyrics>
+ </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -44,6 +43,5 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

@@ -6,7 +6,7 @@
   <presentation></presentation>
   <hymn_number>029</hymn_number>
   <capo print="false"></capo>
-  <tempo>55</tempo>
+  <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
   <predelay>1</predelay>
@@ -33,8 +33,7 @@
 .         F                 C
  Neboť je rozšířená nad námi milost Jeho
 .  Dmi         C            Dmi
- a pravda Jeho navěky,haleluja.
-</lyrics>
+ a pravda Jeho navěky, haleluja.</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -43,6 +42,5 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
-  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

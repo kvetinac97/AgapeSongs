@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Ty jsi má píseň</title>
+  <title>Niech przyjmie chwałę i cześć</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -25,32 +25,19 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>#Organs, stupňuje se
-.Hmi       G      D          A
- Ty jsi má píseň, v srdci mi zníš.
- Ty jsi ten příběh, který chci žít.
- Ty mi dáváš vítězstvi nad slabostí.
- Ty mi dáváš zvítězit i nad marnosti.
-
-.Hmi G     D      A
- Ty dáváš odpuštěni.
- Já přijímám uzdravení.
-
- Ty jsi má píseň, v srdci mi zníš.
- Vyženeš tíseň, vše uzdravíš.
- Ty mi dáváš vítězství nad slabostí.
- Ty mi dáváš zvítězit i nad marností.
-
-.G               Hmi          G Hmi ...
- Ty jsi můj Král, Ty jsi můj Bůh.
- Ty jsi ten vítěz, můj Nejvyšší.
- Ty jsi ten příběh, který chci žít.
-
- Ty jsi má síla, Ty jsi můj štít.
- Ty jsi můj vítěz, s Tebou chci žít.
- Ty mi dáváš vítězství nad slabostí.
- Ty mi dáváš zvítězit i nad marností.
-</lyrics>
+  <lyrics>•60
+.               Gmi
+ Niech przyjmie chwałę i cześć
+.    F             C
+ siedzący na tronie.
+.        Gmi
+ Błogosławieństwo i moc
+.F              C
+ niech weźmie Baranek.
+.   G#
+ Od wieków na wieki
+.      Bb                   C
+ niech płynie Królowi pieśń chwały!</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
