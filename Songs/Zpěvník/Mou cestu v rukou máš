@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
   <title>Mou cestu v rukou máš</title>
+  <author></author>
+  <copyright></copyright>
+  <presentation></presentation>
+  <hymn_number></hymn_number>
+  <capo print="false"></capo>
+  <tempo></tempo>
+  <time_sig></time_sig>
+  <duration></duration>
+  <predelay></predelay>
+  <ccli></ccli>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
+  <user1></user1>
+  <user2></user2>
+  <user3></user3>
+  <key>Bb</key>
+  <aka></aka>
+  <key_line></key_line>
+  <books></books>
+  <midi></midi>
+  <midi_index></midi_index>
+  <pitch></pitch>
+  <restrictions></restrictions>
+  <notes></notes>
   <lyrics>[V1]
-.Gmi              DΔ   Gmi7       F
+.Bb                 Eb   Gmi7       F
  Mou cestu v rukou máš, jdu s důvěrou,
  neselže láska Tvá, jdu s důvěrou.
 .            Ebmaj     Gmi7            F
@@ -14,29 +38,23 @@
  I když musím projít temným údolím, jdu s důvěrou,
  vím, že zase postavíš mě pevně na své skále.
 [B]
-.     Gmi7      Ebmaj7
+.     Bb.        Ebmaj7
  Každý den novou milost
 .       Gmi7             F
  z Tvých dlaní smím si brát.
-.       Gmi7          Ebmaj7
+.      Bb           Ebmaj7
  Jako strom v tém chrámu
-.           Gmi7           F          Gmi7 F
- v pevných zdech tvé věrné lásky úkryt mám.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
+.           Gmi7           F          Eb F
+ v pevných zdech tvé věrné lásky úkryt mám.
+</lyrics>
+  <linked_songs></linked_songs>
+  <pad_file>Auto</pad_file>
+  <custom_chords></custom_chords>
+  <link_youtube></link_youtube>
+  <link_web></link_web>
+  <link_audio></link_audio>
+  <loop_audio>false</loop_audio>
+  <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

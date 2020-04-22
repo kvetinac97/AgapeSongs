@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,22 +25,23 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>
+  <lyrics> 
 .   G                D
  Nemusím lepší být z vlastních sil,
-.    Eb              Bb
+.    F               C
  Tys vítězství mi už vydobyl,
  skrze kříž věčný život dal,
  můj dluh si vyrovnal.
-
+ 
  Bitva je vyhraná, pozvedni hlas,
  vyhlašme mocnostem tu pravdu zas.
  Křik vítězný  ať tady zní,
  že Ježíš zvítězil nad smrtí.
-
+ 
  Jsem nové stvoření a nežiju už já.
  Staré věci zemřely a svobodu teď mám.
- </lyrics>
+ 
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -49,5 +50,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>
