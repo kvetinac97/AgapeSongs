@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,23 +25,24 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•106
-. C#mi      A      E
+  <lyrics> •106, capo2
+ 
+. Hmi      G      D
  Wodę zamieniłeś w wino.
  Ślepi przy Tobie znów widzą,
-.             F#mi         H
+.             Emi         A
  któż jest jak Ty? Tylko Ty.
-
+ 
  Blaskiem rozświetlasz ciemności
  Człowiek powstaje z marności,
  któż jest jak Ty? Tylko Ty.
-. C#mi                 A
+. Hmi                 G
  Nasz Bóg jest wielki, nasz Bóg jest silny
-. E                H
+. D                A
  Boże nikt inny nie równa się z Tobą.
  Nasz Bóg uzdrawia, jest wszechmogący.
  Nasz Bóg, Nasz Bóg. Nasz Bóg.
-
+ 
  Blaskiem rozświetlasz ciemności
  Człowiek powstaje z marności,
  któż jest jak Ty? Tylko Ty.
@@ -49,7 +50,8 @@
  Jeśli nasz Bóg jest przy nas
  już nic nas nie zatrzyma!
  Jeśli nasz Bóg jest z nami,
- któż jest przeciwko nam?</lyrics>
+ któż jest przeciwko nam?
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -58,5 +60,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

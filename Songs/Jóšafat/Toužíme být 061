@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,13 +25,13 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•92
+  <lyrics> •92
 .       D
  Toužíme být Tvým domem chvály,
 .                         A
  toužíme znát, znát srdce Tvé,
 .        D            G
- Toužíme jít po Tvých nádvořích,
+ Toužíme jít do Tvých nádvoří,
 .   A         Hmi
  až před Tvůj trůn
 .      Emi      F#mi
@@ -45,7 +45,8 @@
 .    G              A
  chceme stát, chceme stát.
 .    D
- Tebe uctívat.</lyrics>
+ Tebe uctívat.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -54,5 +55,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

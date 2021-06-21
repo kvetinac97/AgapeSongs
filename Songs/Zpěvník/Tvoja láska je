@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Tvoja láska je</title>
+  <title>GHzTvoja láska je</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli>22.11.06/1.1/CB Pardubice/JŠ</ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -32,10 +32,10 @@
  pre Teba tu som.
  A viem, láskou si ma získal,
  k sebe priviedol.
-.Gmi       B A#
+.Gmi       Am B 
  Smútok je preč, šťastím ma naplňaš,
+.Gmi     Ami    B   C
  učíš ma láskou žiť
-.A# C
 .      F   Gmi B          C
  Tvoja láska je silnejšia než vietor, 
  ona vyššia je než najvyšší štít,

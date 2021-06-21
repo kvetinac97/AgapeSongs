@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,19 +25,20 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•60
-.               Gmi
+  <lyrics> •60, capo3
+.               Emi
  Niech przyjmie chwałę i cześć
-.    F             C
+.    D             A
  siedzący na tronie.
-.        Gmi
+.        Emi
  Błogosławieństwo i moc
-.F              C
+.D              A
  niech weźmie Baranek.
-.   G#
+.   F
  Od wieków na wieki
-.      Bb                   C
- niech płynie Królowi pieśń chwały!</lyrics>
+.      G                   A
+ niech płynie Królowi pieśń chwały!
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -46,5 +47,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

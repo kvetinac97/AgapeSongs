@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Otčenášek náš</title>
+  <title>Otče náš</title>
   <author>Jakub Jersák</author>
   <copyright></copyright>
   <presentation></presentation>
@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•90
+  <lyrics> •90
 .C2 Emi   G         A
  Otče náš, jenž jsi na nebesích
 .Emi    D        C2
@@ -46,7 +46,8 @@
  Kde je smutek, budiž radost,
  kde chlad, ať tam je žár.
  Kde je prázdnota a pusto,
- plnost dej, prosím sám.</lyrics>
+ plnost dej, prosím sám.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -55,4 +56,5 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
 </song>

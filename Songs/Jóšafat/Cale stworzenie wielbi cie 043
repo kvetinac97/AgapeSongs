@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Bitva je vyhraná</title>
+  <title>Cale stworzenie wielbi cie</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,22 +25,23 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> 
-.   F                C
- Nemusím lepší být z vlastních sil,
-.    Eb              Bb
- Tys vítězství mi už vydobyl,
- skrze kříž věčný život dal,
- můj dluh si vyrovnal.
+  <lyrics> •148 capo2
+.  Dmi 
+ Całe stworzenie wielbi Cię,
+.            Ami 
+ Wszystko co żyje daje Ci cześć.
+.          Gmi 
+ Bo pełnia życia w Tobie jest,
+.           F               G
+ Twoja jest moc, Twoja jest moc.
  
- Bitva je vyhraná, pozvedni hlas,
- vyhlašme mocnostem tu pravdu zas.
- Křik vítězný  ať tady zní,
- že Ježíš zvítězil nad smrtí.
+.Dmi (Gmi,Bb,C)
+ Wszelka władza Twoja jest
  
- Jsem nové stvoření a nežiju už já.
- Staré věci zemřely a svobodu teď mám.
- 
+.Dmi Bb               F    
+ Godzien wszelkiej chwały,
+.              C
+ wszelkiej chwały.
 </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
@@ -51,5 +52,4 @@
   <loop_audio>false</loop_audio>
   <link_other></link_other>
   <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

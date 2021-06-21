@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,31 +25,33 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>.Hmi              F#mi
+  <lyrics> • capo2
+.Ami              Emi
  Třetího dne ráno, tak jak Ježíš slíbil,
-.  E                         D
+.  D                         C
  porazil hrob,porazil smrt,
  v moci povstal sám.
-.                E
+.                D
  Nový život máme s Králem,
-.         A     E       F#sus4 F#   D          E
+.         G     D       Esus4 E   C    D
  Jeho království na věky trvá!
  Haleluja, Haleluja!
-.    A     E
+.    G     D
  Haleluja, živý je náš Pán,
-.Emi          F#
+.Dmi          E
  smrt ztratila vítězství,
-.  F#sus4           F#
+.  Esus4           E
  když Ježíš z hrobu vstal.
-. Hmi
+. Ami
  Král Ježíš byl vzkříšen.
-.     D     Hmi  E
+.     C     Ami  (D)
  On je vzkříšen!
-
+ 
  On je počátek i konec,
  první a poslední,
  pánů Pán a králů Král na věky vzkříšený.
- Pán Bůh všemohoucí.</lyrics>
+ Pán Bůh všemohoucí.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -58,5 +60,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

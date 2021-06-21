@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,26 +25,27 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•104
-.H Ebmi E
-.H                 H7
+  <lyrics> •110, capo2
+ 
+.A C#mi D
+.A                 A7
  Moc, čest a sláva,síla a chvála,
-.G#mi                E
+.F#mi                D
  ať je vzdána Bohu věků.
  Ať každý národ, končiny země,
  pokleknou před Bohem věků.
-.E                   F#
+.D                   E
  Všichni na zemi i v nebi
  prohlásí Tvou slávu,
-. E                     F#     G#mi  F#
+. D                     E     F#mi  E
  každý poklekne před trůnem v uctívání.
-.E
+.D                    E
  Ty jsi vyvýšen ó, Bože
-.                                     H
+.       D                E              A
  a tvé království nepomine. Ó, Bože věků.
-.H
+.A
  Tvé království přichází na zemi,
-.    A          E         H
+.    G          D         A
  tak chval Boha věků, tak chval.
  Nikdo a nic není jako Ty,
  tak chval Boha věků, tak chval.
@@ -57,4 +58,5 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
 </song>

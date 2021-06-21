@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay>1</predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>6/8
+  <lyrics>6/8,160
 .Dmi            G          Dmi
  Chvalte Hospodina všichni národové,
 .C                 Dmi
@@ -33,7 +33,8 @@
 .         F                 C
  Neboť je rozšířená nad námi milost Jeho
 .  Dmi         C            Dmi
- a pravda Jeho navěky, haleluja.</lyrics>
+ a pravda Jeho navěky, haleluja.
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -42,5 +43,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

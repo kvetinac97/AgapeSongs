@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Bitva je vyhraná</title>
+  <title>Jahve Jireh</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,22 +25,30 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> 
-.   F                C
- Nemusím lepší být z vlastních sil,
-.    Eb              Bb
- Tys vítězství mi už vydobyl,
- skrze kříž věčný život dal,
- můj dluh si vyrovnal.
+  <lyrics> •126,capo3
+.a           d
+ Jahve Jireh opatruje ma,
+.F        G            a
+ milosť Jeho stačí pre mňa,
+.    F        E
+ pre mňa, pre mňa.
+.a           d
+ Jahve Jireh opatruje ma,
+.F         G       a
+ milosť Jeho stačí pre mňa.
  
- Bitva je vyhraná, pozvedni hlas,
- vyhlašme mocnostem tu pravdu zas.
- Křik vítězný  ať tady zní,
- že Ježíš zvítězil nad smrtí.
- 
- Jsem nové stvoření a nežiju už já.
- Staré věci zemřely a svobodu teď mám.
- 
+.a                     d
+ Môj Boh všetkým ma zaopatrí,
+.G                      C    E7
+ podla svojho bohatstva v sláve.
+.A7                        d
+ Posiela anjelov strážnych nado mnou,
+.F              G       a
+ Jahve Jireh stará sa o mňa,
+.  F      E
+ o mňa, o mňa.
+.   F           G       a
+ Jahve Jireh stará sa o mňa.
 </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
@@ -51,5 +59,4 @@
   <loop_audio>false</loop_audio>
   <link_other></link_other>
   <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

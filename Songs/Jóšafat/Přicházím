@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Bitva je vyhraná</title>
+  <title>Přicházím 062</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,22 +25,34 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> 
-.   F                C
- Nemusím lepší být z vlastních sil,
-.    Eb              Bb
- Tys vítězství mi už vydobyl,
- skrze kříž věčný život dal,
- můj dluh si vyrovnal.
+  <lyrics> •60 6/8 capo3
  
- Bitva je vyhraná, pozvedni hlas,
- vyhlašme mocnostem tu pravdu zas.
- Křik vítězný  ať tady zní,
- že Ježíš zvítězil nad smrtí.
+ Sl1, Otče, Ref, Sl1, Sl2, Otče, Ref x2, Sl1, Otče, Ref x3
  
- Jsem nové stvoření a nežiju už já.
- Staré věci zemřely a svobodu teď mám.
  
+.Hmi          A
+ Přicházím za světla dne
+.     Emi             Hmi
+ přes poušť samoty na místo posvátné.
+.    D           A
+ Znáš život můj, vše čím jsem byl,
+. Emi              G       A
+ touhy co vedly mě od Tebe dál.
+ 
+. Emi               D
+ Otče milost tvá je větší než hřích,
+. G            A
+ padá jak déšť a vyléčí.
+ 
+. D(H)                   A
+ Všechno, co smím, je kleknout před Tebou,
+.        Emi    G  A  (H)
+ volat - Svatý, Svatý.
+ 
+ Když děsí mě noc, když jdu temnotou,
+ hledám tvé světlo a lásku tvou.
+ Otče můj, ať milost tvá
+ smývá mou vinu, smývá můj pláč.
 </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
@@ -51,5 +63,4 @@
   <loop_audio>false</loop_audio>
   <link_other></link_other>
   <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

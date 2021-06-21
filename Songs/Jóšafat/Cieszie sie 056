@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -25,7 +25,7 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics>•118
+  <lyrics> •118, u-capo4 - C,G7,F,a
 .E           H
  Cieszę się, Jezus zbawił mnie.
 .            E
@@ -36,18 +36,19 @@
  Śpiewam chwała alleluja,
 .H7           E
  Jezus zbawił mnie.
-
+ 
  Kiedy byłem grzeszny,
  Jezus zbawił mnie ...
  Śpiewam ...
-
+ 
  Chcę powiedzieć wszystkim,
  Jezus zbawił mnie ...
  Śpiewam ...
-
+ 
  Będę go uwielbiać,
  Jezus zbawił mnie ...
- Śpiewam ...</lyrics>
+ Śpiewam ...
+</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
@@ -56,5 +57,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

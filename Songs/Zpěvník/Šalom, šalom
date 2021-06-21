@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Bitva je vyhraná</title>
+  <title>Šalom, šalom Jerušalaim</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
   <hymn_number></hymn_number>
-  <capo print="false"></capo>
+  <capo print=""></capo>
   <tempo></tempo>
   <time_sig></time_sig>
   <duration></duration>
@@ -25,22 +25,26 @@
   <pitch></pitch>
   <restrictions></restrictions>
   <notes></notes>
-  <lyrics> 
-.   F                C
- Nemusím lepší být z vlastních sil,
-.    Eb              Bb
- Tys vítězství mi už vydobyl,
- skrze kříž věčný život dal,
- můj dluh si vyrovnal.
+  <lyrics>.d                  g(d)
+ Šalom, šalom Jerušalaim.
+.                   g
+ Šalom, šalom Jerušalaim.
+.d                  A  d
+ Šalom, šalom Jerušalaim.
  
- Bitva je vyhraná, pozvedni hlas,
- vyhlašme mocnostem tu pravdu zas.
- Křik vítězný  ať tady zní,
- že Ježíš zvítězil nad smrtí.
+.d(C)     g(F) Bb       g
+ Šalom, šalom, šalom, šalom.
+.d               A    d
+ Šalom, šalom Jerušalaim.
  
- Jsem nové stvoření a nežiju už já.
- Staré věci zemřely a svobodu teď mám.
+ Hevenu šalom alechem.
+ Hevenu šalom, šalom, šalom alechem.
  
+ Neseme pokoj Boží vám.
+ Neseme pokoj, pokoj, pokoj Boží vám.
+ 
+ A pokoj zůstávej s vámi.
+ A pokoj zůstaň, zůstaň, zůstávej s vámi.
 </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
@@ -51,5 +55,4 @@
   <loop_audio>false</loop_audio>
   <link_other></link_other>
   <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

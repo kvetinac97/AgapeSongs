@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -31,8 +31,7 @@
 .H                       A
  Jsi mocný Hospodine,tvá věrnost Tě obklopuje.
 .E              A        E(H)
- Spravedlnost a právo je základ Tvého trůnu.      
- Milosrdenství a věrnost kráčejí před Tebou.
+ Spravedlnost a právo je základ Tvého trůnu.
 </lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
@@ -42,5 +41,6 @@
   <link_audio></link_audio>
   <loop_audio>false</loop_audio>
   <link_other></link_other>
+  <abcnotation></abcnotation>
   <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
 </song>

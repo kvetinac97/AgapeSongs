@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Keby si dnes mal</title>
+  <title>Keby si mal</title>
   <author></author>
   <copyright></copyright>
   <presentation></presentation>
@@ -11,8 +11,8 @@
   <duration></duration>
   <predelay></predelay>
   <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
+  <theme>;</theme>
+  <alttheme>;</alttheme>
   <user1></user1>
   <user2></user2>
   <user3></user3>
@@ -26,8 +26,8 @@
   <restrictions></restrictions>
   <notes>123</notes>
   <lyrics> •130
-.            Dmi                  A
- Keby si dnes mal takúto malú vieru,
+.        Dmi              A
+ Keby si mal takúto malú vieru,
 .                 Dmi A
  vrchy by si prenášal.
  
