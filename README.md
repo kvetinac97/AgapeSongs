@@ -2,4 +2,4 @@
 
 Písničky z AC Agape
 
-Pokyny k instalaci naleznete na <b>Wiki</b>
+Pokyny k instalaci naleznete na [**Wiki**](https://github.com/kvetinac97/AgapeSongs/wiki)
