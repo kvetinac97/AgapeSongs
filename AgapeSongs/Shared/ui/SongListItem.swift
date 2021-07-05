@@ -23,26 +23,13 @@ struct SongListItem: View {
     
     var body : some View {
         ZStack {
-            /*#if os(iOS)
-            HStack {
-                NavigationLink(
-                    destination: SongView(song: song)
-                ) { Text(song.id) }
-                .buttonStyle(PlainButtonStyle())
-                .padding([.leading], 4)
-                NavigationLink(destination: EmptyView()) { EmptyView() }
-                Spacer()
-            }
-            .padding(4)
-            #endif
-            
-            #if os(macOS)*/
             if selection?.id == song.id {
                 Color.blue
             }
             else {
                 Color.black
             }
+
             HStack {
                 Text(song.id)
                     .padding([.leading], 4)
@@ -50,12 +37,9 @@ struct SongListItem: View {
                 Spacer()
             }
             .padding(4)
-           // #endif
         }
         .onTapGesture {
-            // #if os(macOS)
             selection = song
-            // #endif
         }
         .contextMenu(ContextMenu(menuItems: {
             if song.listId == 0 {
