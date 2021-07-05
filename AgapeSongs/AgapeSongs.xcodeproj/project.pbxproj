@@ -26,6 +26,8 @@
 		269DA8C32683747F009B9647 /* AgapeSongsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DA8AF2683747B009B9647 /* AgapeSongsApp.swift */; };
 		269DA8C62683747F009B9647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269DA8B12683747E009B9647 /* Assets.xcassets */; };
 		269DA8C72683747F009B9647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269DA8B12683747E009B9647 /* Assets.xcassets */; };
+		26A6620D269317BC00A0415E /* LeftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6620C269317BC00A0415E /* LeftMenu.swift */; };
+		26A6620E269317BC00A0415E /* LeftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6620C269317BC00A0415E /* LeftMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,7 @@
 		269DA8BE2683747F009B9647 /* AgapeSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgapeSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269DA8C02683747F009B9647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269DA8C12683747F009B9647 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		26A6620C269317BC00A0415E /* LeftMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 				261747BF26837B19000B2F11 /* ContentView.swift */,
 				26638F9D268381BB0049866C /* SongListItem.swift */,
 				26638F9F268381C80049866C /* SongView.swift */,
+				26A6620C269317BC00A0415E /* LeftMenu.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -241,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261747A726837624000B2F11 /* Song.swift in Sources */,
+				26A6620D269317BC00A0415E /* LeftMenu.swift in Sources */,
 				261747C526837BA8000B2F11 /* ContentView.swift in Sources */,
 				269DA8C22683747F009B9647 /* AgapeSongsApp.swift in Sources */,
 				26638FA0268381C80049866C /* SongView.swift in Sources */,
@@ -259,6 +264,7 @@
 				269DA8C32683747F009B9647 /* AgapeSongsApp.swift in Sources */,
 				26638FA826838BED0049866C /* SongListItem.swift in Sources */,
 				26638FA726838B3D0049866C /* ContentView.swift in Sources */,
+				26A6620E269317BC00A0415E /* LeftMenu.swift in Sources */,
 				261747A626837624000B2F11 /* Playlist.swift in Sources */,
 				26638FA6268382CF0049866C /* PlaylistHolder.swift in Sources */,
 				261747B526837776000B2F11 /* KeyEventHandling.swift in Sources */,

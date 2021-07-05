@@ -13,60 +13,18 @@ struct ContentView: View {
     @EnvironmentObject var playlistHolder: PlaylistHolder
     
     // Actual displayed song (just on Mac)
-    #if os(macOS)
-        @State private var selection: Song? = nil
+    @State private var selection: Song? = nil
+    
+    #if os(iOS)
+    // Offset of song view
+    @State private var offset: CGSize = .zero
     #endif
     
-    // Actual searched text
-    @State private var searched: String = ""
-    
     var body: some View {
-        NavigationView {
-            VStack {
-                // Menu (left part)
-                ScrollView {
-                    LazyVStack(spacing: 0) {
-                        ForEach(playlistHolder.lists, id: \.id) { list in
-                            // Top bar
-                            HStack {
-                                Text(list.id)
-                                    .font(Font.subheadline.weight(.bold))
-                                Spacer()
-                            }
-                            .padding(5)
-                            Divider()
-                            
-                            // Displaying each song item
-                            ForEach(list.songs.filter({
-                                searched.isEmpty ? true : $0.id.lowercased().contains(searched.lowercased())
-                            }), id: \.id) { song in
-                                #if os(iOS)
-                                SongListItem(song: song)
-                                NavigationLink(destination: EmptyView()) { EmptyView() }
-                                #endif
-                                
-                                #if os(macOS)
-                                SongListItem(selection: $selection, song: song)
-                                #endif
-                            }
-                        }
-                    }
-                }
-                Spacer()
-                #if os(iOS)
-                TextField("Search", text: $searched)
-                    .padding()
-                    .navigationBarTitle("AgapeSongs", displayMode: .inline)
-                #endif
-                
-                #if os(macOS)
-                TextField("Search", text: $searched)
-                    .padding()
-                    .background(KeyEventHandling(text: $searched, selection: $selection, lists: $playlistHolder.lists))
-                #endif
-            }
-            
+         NavigationView {
             #if os(macOS)
+            LeftMenu(selection: $selection)
+            
             // Content (right part)
             if selection == nil {
                 Text("No songs selected.")
@@ -74,8 +32,9 @@ struct ContentView: View {
             }
             else {
                 ZStack {
-                    SongView(song: selection!)
-                    HStack {
+                    SongView(selection: $selection, song: selection!)
+                       
+                   HStack {
                         Spacer()
                         VStack {
                             Spacer()
@@ -88,6 +47,17 @@ struct ContentView: View {
                                 .padding([.bottom], 10)
                         }
                     }
+                }
+            }
+            #endif
+            
+            #if os(iOS)
+            ZStack {
+                LeftMenu(selection: $selection)
+                if selection != nil {
+                    SongView(offset: $offset, selection: $selection, song: selection!)
+                        .offset(x: offset.width, y: offset.height)
+                        .animation(.interactiveSpring(), value: offset)
                 }
             }
             #endif

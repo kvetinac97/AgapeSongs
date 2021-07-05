@@ -15,7 +15,13 @@ struct SongView: View {
     #if os(iOS)
     // Holder of all playlists
     @EnvironmentObject var playlistHolder: PlaylistHolder
+    
+    // Offset of current SongView
+    @Binding var offset: CGSize
     #endif
+    
+    // Current selected song
+    @Binding var selection: Song?
 
     // Current song being displayed and its size
     let song: Song
@@ -23,6 +29,23 @@ struct SongView: View {
     
     var body: some View {
         ZStack {
+            #if os(iOS)
+            let gesture = DragGesture()
+                .onChanged {
+                    if $0.translation.width > 0 {
+                        self.offset = .init(width: $0.translation.width, height: self.offset.height)
+                    }
+                }
+                .onEnded {
+                    if $0.translation.width > 100 {
+                        selection = nil // swipe left
+                    }
+                    self.offset = .zero
+            }
+            #else
+            let gesture = DragGesture()
+            #endif
+
             VStack {
                 ScrollView {
                     ForEach(song.lines, id: \.self) { line in
@@ -37,25 +60,35 @@ struct SongView: View {
                 }
                 Spacer()
             }
+            .gesture(gesture)
+            
             VStack {
                 Spacer()
                 #if os(iOS)
                 HStack {
                     if song.listId == 0 && song.songId != 0 {
-                        NavigationLink(
-                            destination: SongView(song: playlistHolder.lists[0].songs[song.songId - 1]),
-                            label: { Image(systemName: "arrow.left.circle.fill").resizable().frame(width: 50, height: 50).accentColor(.blue.opacity(0.5)) }
-                        )
+                        Image(systemName: "arrow.left.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.blue.opacity(0.5))
+                            .onTapGesture {
+                                selection = playlistHolder.lists[0].songs[song.songId - 1]
+                            }
                     }
                     Spacer()
                     if song.listId == 0 && song.songId != playlistHolder.lists[0].songs.endIndex - 1 {
-                        NavigationLink(
-                            destination: SongView(song: playlistHolder.lists[0].songs[song.songId + 1]),
-                            label: { Image(systemName: "arrow.right.circle.fill").resizable().frame(width: 50, height: 50).accentColor(.blue.opacity(0.5)) }
-                        )
+                        Image(systemName: "arrow.right.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.blue.opacity(0.5))
+                            .onTapGesture {
+                                selection = playlistHolder.lists[0].songs[song.songId + 1]
+                            }
                     }
                 }
-                .navigationBarTitle(song.realId, displayMode: .inline)
+                .navigationBarItems(leading: Button(action: { selection = nil }) {
+                    Image(systemName: "arrow.backward")
+                })
                 .padding([.bottom, .leading, .trailing])
                 #endif
                 Slider(value: Binding<CGFloat>(get: {textSize}, set: {

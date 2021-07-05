@@ -15,17 +15,15 @@ struct SongListItem: View {
     // All playlists holder
     @EnvironmentObject var playlistHolder: PlaylistHolder
     
-    #if os(macOS)
     // Selected song, actual song
     @Binding var selection: Song?
-    #endif
     
     // Current song being displayed
     let song: Song
     
     var body : some View {
         ZStack {
-            #if os(iOS)
+            /*#if os(iOS)
             HStack {
                 NavigationLink(
                     destination: SongView(song: song)
@@ -38,7 +36,7 @@ struct SongListItem: View {
             .padding(4)
             #endif
             
-            #if os(macOS)
+            #if os(macOS)*/
             if selection?.id == song.id {
                 Color.blue
             }
@@ -52,12 +50,12 @@ struct SongListItem: View {
                 Spacer()
             }
             .padding(4)
-            #endif
+           // #endif
         }
         .onTapGesture {
-            #if os(macOS)
+            // #if os(macOS)
             selection = song
-            #endif
+            // #endif
         }
         .contextMenu(ContextMenu(menuItems: {
             if song.listId == 0 {
