@@ -21,7 +21,15 @@ struct ContentView: View {
     #endif
     
     var body: some View {
-         NavigationView {
+
+        // Navigation style
+        #if os(macOS)
+        let style = DefaultNavigationViewStyle()
+        #else
+        let style = StackNavigationViewStyle()
+        #endif
+
+        NavigationView {
             #if os(macOS)
             LeftMenu(selection: $selection)
             
@@ -63,6 +71,7 @@ struct ContentView: View {
             #endif
         }
         .background(Color.white)
+        .navigationViewStyle(style)
         .onAppear(perform: playlistHolder.loadSongs)
         .onDisappear(perform: playlistHolder.savePlaylist)
     }
