@@ -45,10 +45,11 @@
  však Ty jsi Bůh všemocný.
 .   Dmi            G         C (Gmi C7)
  To málo co mám, Tobě přináším.
-;Mezihra: CGF   CFG
-;          C     C
-;Konec: Ami7 Dmi C Fb F6 C
-;       Ami7 Dmi Emi Fmi Gmi C</lyrics>
+
+.Mezihra: CGF   CFG
+.          C     C
+.Konec: Ami7 Dmi C Fb F6 C
+.       Ami7 Dmi Emi Fmi Gmi C</lyrics>
   <linked_songs></linked_songs>
   <pad_file>Auto</pad_file>
   <custom_chords></custom_chords>
