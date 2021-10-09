@@ -52,7 +52,7 @@ struct SongView: View {
                         HStack {
                             // OpenSong format - dot = chords, space = text
                             Text(line.starts(with: ".") || line.starts(with: " ") ? String(line.suffix(from: line.index(line.startIndex, offsetBy: 1))).trim() : line.trim())
-                                .foregroundColor(line.starts(with: ".") ? Color.init(red: 0, green: 0, blue: 0.86666) : Color.black)
+                                .foregroundColor(line.starts(with: ".") ? Color.red : Color.black)
                                 .font(.custom("Bitstream Vera Sans Mono", size: textSize))
                             Spacer()
                         }
