@@ -101,8 +101,7 @@ struct SongView: View {
                                 }
                                 editMode.toggle()
                             }
-                            .frame(width: 30, height: 30)
-                            .padding([.bottom], 10)
+                            .frame(width: 50, height: 50)
                     }
                     
                     #if os(iOS)
