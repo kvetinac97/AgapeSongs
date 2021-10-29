@@ -22,7 +22,7 @@ final class PlaylistHolder : ObservableObject {
         
         // Find AgapeSongs folder
         let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Songs")
-        
+            
         // Tmp map for playlist loading
         var tmpPlaylistMap = [String: Int]()
         var tmpSongMap = [String: Int]()
@@ -73,17 +73,54 @@ final class PlaylistHolder : ObservableObject {
         // Publish load
         self.lists = lists
 
-        #if os(macOS)
-        loadOneList(documentsUrl, &tmpPlaylistMap, &tmpSongMap)
-        #else
-        self.originalLists = lists
-        #endif
+        loadOneList(documentsUrl, &tmpPlaylistMap, &tmpSongMap);
         
         // Load saved playlist (if there is any)
         loadPlaylist(documentsUrl, tmpPlaylistMap, tmpSongMap)
     }
     
-    #if os(macOS)
+    func editSong (song: Song, songText: String, newSelection: inout Song?) {
+        // Find documents folder
+        let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0] as NSURL
+        
+        // Find song file
+        let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Songs")
+            .appendingPathComponent(originalLists[song.realListId].id)
+            .appendingPathComponent(song.realId)
+    
+        // Try open file
+        if fileUrl == nil {
+            print("Could not find file \(originalLists[song.realListId].id) \(song.realId)")
+            return
+        }
+        
+        // Save song
+        let firstPart = try? String(contentsOf: fileUrl!, encoding: .utf8).components(separatedBy: "<lyrics>").first
+        let secondPart = try? String(contentsOf: fileUrl!, encoding: .utf8).components(separatedBy: "</lyrics>").last
+
+        // Invalid file
+        if firstPart == nil || secondPart == nil || songText.contains("<lyrics>") || songText.contains("</lyrics>") {
+            print("Could not read first or second part from file")
+            return
+        }
+
+        let newText = firstPart! + "<lyrics>" + songText + "</lyrics>" + secondPart!
+        do {
+            try newText.write(to: fileUrl!, atomically: true, encoding: .utf8)
+        }
+        catch (_) {
+            print("Error: Could not write to file")
+            return
+        }
+
+        // Reload song
+        let song = Song(id: song.id, lines: songText.components(separatedBy: "\n"), realId: song.realId, realListId: song.realListId, listId: song.listId, songId: song.songId)
+        
+        originalLists[song.realListId].songs[song.songId] = song
+        lists[song.listId].songs[song.songId] = song
+        newSelection = song
+    }
+    
     // Optionally, users on macOS can select to have only one folder
     func loadOneList (_ documentsUrl: NSURL, _ tmpPlaylistMap: inout [String: Int], _ tmpSongMap: inout [String: Int]) {
         // One directory setting
@@ -121,7 +158,6 @@ final class PlaylistHolder : ObservableObject {
             self.originalLists = lists
         }
     }
-    #endif
     
     // Function to load playlist
     private func loadPlaylist (_ documentsUrl: NSURL, _ tmpPlaylistMap: [String: Int], _ tmpSongMap: [String: Int]) {

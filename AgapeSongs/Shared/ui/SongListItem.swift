@@ -17,6 +17,7 @@ struct SongListItem: View {
     
     // Selected song, actual song
     @Binding var selection: Song?
+    @Binding var editMode: Bool
     
     // Current song being displayed
     let song: Song
@@ -31,15 +32,25 @@ struct SongListItem: View {
             }
 
             HStack {
+                #if os(macOS)
+                let size = 16
+                #else
+                let size = UIDevice.current.userInterfaceIdiom == .pad ? 32 : 16
+                #endif
+                
                 Text(song.id)
+                    .font(.system(size: CGFloat(size)))
                     .padding([.leading], 4)
                     .foregroundColor(.white)
+                
                 Spacer()
             }
             .padding(4)
         }
         .onTapGesture {
-            selection = song
+            if !editMode {
+                selection = song
+            }
         }
         .contextMenu(ContextMenu(menuItems: {
             if song.listId == 0 {

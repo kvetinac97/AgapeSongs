@@ -16,6 +16,7 @@ struct KeyEventHandling : NSViewRepresentable {
     // Help properties
     var text: Binding<String>
     var selection: Binding<Song?>
+    var editMode: Binding<Bool>
     var lists: Binding<[Playlist]>
     
     class KeyView: NSView {
@@ -23,14 +24,14 @@ struct KeyEventHandling : NSViewRepresentable {
         // We keep track of search text, selected song and all playlists & songs
         var text: Binding<String> = .constant("")
         var selection: Binding<Song?> = .constant(nil)
+        var editMode: Binding<Bool> = .constant(false)
         var lists : Binding<[Playlist]> = .constant([Playlist]())
 
         override var acceptsFirstResponder: Bool { true }
 
-        override func keyDown (with event: NSEvent) {
-            
+        override func keyDown (with event: NSEvent) {            
             // Move on key up / key down
-            if (event.keyCode == 125 || event.keyCode == 126) && text.wrappedValue.isEmpty {
+            if !editMode.wrappedValue && (event.keyCode == 125 || event.keyCode == 126) && text.wrappedValue.isEmpty {
                 // Select first item
                 if selection.wrappedValue == nil {
                     selection.wrappedValue = lists.wrappedValue[1].songs[0]
@@ -74,6 +75,7 @@ struct KeyEventHandling : NSViewRepresentable {
         let view = KeyView()
         view.text = text
         view.selection = selection
+        view.editMode = editMode
         view.lists = lists
         DispatchQueue.main.async {
             view.window?.makeFirstResponder(view)

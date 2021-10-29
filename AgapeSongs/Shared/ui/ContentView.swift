@@ -12,8 +12,9 @@ struct ContentView: View {
     // All the playlists loaded from file
     @EnvironmentObject var playlistHolder: PlaylistHolder
     
-    // Actual displayed song (just on Mac)
+    // Actual displayed song and editMode
     @State private var selection: Song? = nil
+    @State private var editMode: Bool = false
     
     #if os(iOS)
     // Offset of song view
@@ -31,7 +32,7 @@ struct ContentView: View {
 
         NavigationView {
             #if os(macOS)
-            LeftMenu(selection: $selection)
+            LeftMenu(selection: $selection, editMode: $editMode)
             
             // Content (right part)
             if selection == nil {
@@ -40,7 +41,7 @@ struct ContentView: View {
             }
             else {
                 ZStack {
-                    SongView(selection: $selection, song: selection!)
+                    SongView(selection: $selection, editMode: $editMode, song: selection!)
                        
                    HStack {
                         Spacer()
@@ -61,9 +62,9 @@ struct ContentView: View {
             
             #if os(iOS)
             ZStack {
-                LeftMenu(selection: $selection)
+                LeftMenu(selection: $selection, editMode: $editMode)
                 if selection != nil {
-                    SongView(offset: $offset, selection: $selection, song: selection!)
+                    SongView(offset: $offset, selection: $selection, editMode: $editMode, song: selection!)
                         .offset(x: offset.width, y: offset.height)
                         .animation(.interactiveSpring(), value: offset)
                 }

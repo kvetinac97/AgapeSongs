@@ -12,8 +12,9 @@ struct LeftMenu: View {
     // Holder of all playlists
     @EnvironmentObject var playlistHolder: PlaylistHolder
     
-    // Binding of selection
+    // Binding of selection and edit/focus
     @Binding var selection: Song?
+    @Binding var editMode: Bool
     
     // Actual searched text
     @State private var searched: String = ""
@@ -36,7 +37,7 @@ struct LeftMenu: View {
                         ForEach(list.songs.filter({
                             searched.isEmpty ? true : $0.id.lowercased().contains(searched.lowercased())
                         }), id: \.id) { song in
-                            SongListItem(selection: $selection, song: song)
+                            SongListItem(selection: $selection, editMode: $editMode, song: song)
                         }
                     }
                 }
@@ -52,7 +53,7 @@ struct LeftMenu: View {
             #if os(macOS)
             TextField("Search", text: $searched)
                 .padding()
-                .background(KeyEventHandling(text: $searched, selection: $selection, lists: $playlistHolder.lists))
+                .background(KeyEventHandling(text: $searched, selection: $selection, editMode: $editMode, lists: $playlistHolder.lists))
             #endif
         }
     }

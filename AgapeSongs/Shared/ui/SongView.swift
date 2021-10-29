@@ -12,20 +12,23 @@ import SwiftUI
  */
 struct SongView: View {
     
-    #if os(iOS)
     // Holder of all playlists
     @EnvironmentObject var playlistHolder: PlaylistHolder
     
+    #if os(iOS)
     // Offset of current SongView
     @Binding var offset: CGSize
     #endif
     
     // Current selected song
     @Binding var selection: Song?
+    @Binding var editMode: Bool
 
     // Current song being displayed and its size
     let song: Song
+    
     @State private var textSize = CGFloat(25)
+    @State private var songText = ""
     
     var body: some View {
         ZStack {
@@ -47,14 +50,20 @@ struct SongView: View {
             #endif
 
             VStack {
-                ScrollView {
-                    ForEach(song.lines, id: \.self) { line in
-                        HStack {
-                            // OpenSong format - dot = chords, space = text
-                            Text(line.starts(with: ".") || line.starts(with: " ") ? String(line.suffix(from: line.index(line.startIndex, offsetBy: 1))).trim() : line.trim())
-                                .foregroundColor(line.starts(with: ".") ? Color.red : Color.black)
-                                .font(.custom("Bitstream Vera Sans Mono", size: textSize))
-                            Spacer()
+                if editMode {
+                    TextEditor(text: $songText)
+                        .font(.custom("Bitstream Vera Sans Mono", size: textSize))
+                }
+                else {
+                    ScrollView {
+                        ForEach(song.lines, id: \.self) { line in
+                            HStack {
+                                // OpenSong format - dot = chords, space = text
+                                Text(line.starts(with: ".") || line.starts(with: " ") ? String(line.suffix(from: line.index(line.startIndex, offsetBy: 1))).trim() : line.trim())
+                                    .foregroundColor(line.starts(with: ".") ? Color.red : Color.black)
+                                    .font(.custom("Bitstream Vera Sans Mono", size: textSize))
+                                Spacer()
+                            }
                         }
                     }
                 }
@@ -64,9 +73,10 @@ struct SongView: View {
             
             VStack {
                 Spacer()
-                #if os(iOS)
+                
                 HStack {
-                    if song.listId == 0 && song.songId != 0 {
+                    #if os(iOS)
+                    if !editMode && song.listId == 0 && song.songId != 0 {
                         Image(systemName: "arrow.left.circle.fill")
                             .resizable()
                             .frame(width: 50, height: 50)
@@ -75,8 +85,28 @@ struct SongView: View {
                                 selection = playlistHolder.lists[0].songs[song.songId - 1]
                             }
                     }
+                    #endif
                     Spacer()
-                    if song.listId == 0 && song.songId != playlistHolder.lists[0].songs.endIndex - 1 {
+                    
+                    if song.listId != 0 {
+                        Image(systemName: "pencil.circle.fill")
+                            .resizable()
+                            .foregroundColor(.black)
+                            .onTapGesture {
+                                if editMode {
+                                    playlistHolder.editSong(song: song, songText: songText, newSelection: &selection)
+                                }
+                                else {
+                                    songText = song.lines.joined(separator: "\n")
+                                }
+                                editMode.toggle()
+                            }
+                            .frame(width: 30, height: 30)
+                            .padding([.bottom], 10)
+                    }
+                    
+                    #if os(iOS)
+                    if !editMode && song.listId == 0 && song.songId != playlistHolder.lists[0].songs.endIndex - 1 {
                         Image(systemName: "arrow.right.circle.fill")
                             .resizable()
                             .frame(width: 50, height: 50)
@@ -85,12 +115,10 @@ struct SongView: View {
                                 selection = playlistHolder.lists[0].songs[song.songId + 1]
                             }
                     }
+                    #endif
                 }
-                .navigationBarItems(leading: Button(action: { selection = nil }) {
-                    Image(systemName: "arrow.backward")
-                })
                 .padding([.bottom, .leading, .trailing])
-                #endif
+                
                 Slider(value: Binding<CGFloat>(get: {textSize}, set: {
                     textSize = $0
                     UserDefaults.standard.setValue(Double(textSize), forKey: "SONG_SIZE_\(song.realId)")
