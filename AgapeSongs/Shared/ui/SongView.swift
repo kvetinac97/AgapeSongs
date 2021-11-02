@@ -89,6 +89,12 @@ struct SongView: View {
                     Spacer()
                     
                     if song.listId != 0 {
+                        #if os(macOS)
+                        let size : CGFloat = 30
+                        #else
+                        let size : CGFloat = 50
+                        #endif
+                        
                         Image(systemName: "pencil.circle.fill")
                             .resizable()
                             .foregroundColor(.black)
@@ -101,7 +107,8 @@ struct SongView: View {
                                 }
                                 editMode.toggle()
                             }
-                            .frame(width: 50, height: 50)
+                            .frame(width: size, height: size)
+                            .padding([.bottom], 10)
                     }
                     
                     #if os(iOS)

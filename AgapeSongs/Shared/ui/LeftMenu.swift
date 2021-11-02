@@ -44,17 +44,33 @@ struct LeftMenu: View {
             }
             Spacer()
         
-            #if os(iOS)
-            TextField("Search", text: $searched)
-                .padding()
-                .navigationBarTitle(selection?.realId ?? "AgapeSongs", displayMode: .inline)
-            #endif
-            
-            #if os(macOS)
-            TextField("Search", text: $searched)
-                .padding()
-                .background(KeyEventHandling(text: $searched, selection: $selection, editMode: $editMode, lists: $playlistHolder.lists))
-            #endif
+            HStack {
+                #if os(iOS)
+                TextField("Hledat", text: $searched)
+                    .padding()
+                    .navigationBarTitle(selection?.realId ?? "AgapeSongs", displayMode: .inline)
+                #endif
+                
+                #if os(macOS)
+                TextField("Hledat", text: $searched)
+                    .padding()
+                    .background(KeyEventHandling(text: $searched, selection: $selection, editMode: $editMode, lists: $playlistHolder.lists))
+                #endif
+                
+                Spacer()
+                
+                Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .foregroundColor(.black)
+                    .frame(width: 20, height: 20)
+                    .padding()
+                    .onTapGesture {
+                        if !searched.isEmpty {
+                            playlistHolder.createSong(songName: searched)
+                            searched = ""
+                        }
+                    }
+            }
         }
     }
 }

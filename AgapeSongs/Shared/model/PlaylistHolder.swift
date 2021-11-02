@@ -19,6 +19,7 @@ final class PlaylistHolder : ObservableObject {
     func loadSongs () {
         // Find documents folder
         let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0] as NSURL
+        print("URL: \(documentsUrl)")
         
         // Find AgapeSongs folder
         let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Songs")
@@ -197,6 +198,50 @@ final class PlaylistHolder : ObservableObject {
             
             try? txt.write(to: fileUrl, atomically: true, encoding: .utf8)
         }
+    }
+    
+    // Create new song with given name
+    func createSong (songName: String) {
+        print("Creating song \(songName)")
+        
+        // Find documents folder
+        let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0] as NSURL
+        
+        if originalLists.count < 2 {
+            return
+        }
+        
+        // Find song file
+        let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Songs")
+            .appendingPathComponent(originalLists[1].id)
+            
+        if fileUrl == nil {
+            return
+        }
+        
+        let fileName = fileUrl!.path + "/" + songName
+        
+        if FileManager.default.fileExists(atPath: fileName) {
+            return
+        }
+        
+        if !FileManager.default.createFile(atPath: fileName, contents: nil, attributes: nil) {
+            print("Could not create file \(fileName)")
+            return
+        }
+        
+        // Save song
+        let text = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<song>\n<title>\(songName)</title>\n<author></author>\n<copyright></copyright>\n<presentation></presentation>\n<hymn_number></hymn_number>\n<capo print=\"\"></capo>\n          <tempo></tempo>\n<time_sig></time_sig>\n<duration></duration>\n<predelay></predelay>\n<ccli></ccli>\n<theme></theme>\n<alttheme></alttheme>\n<user1></user1>\n<user2></user2>\n<user3></user3>\n<key></key>\n<aka></aka>\n<key_line></key_line>\n<books></books>\n<midi></midi>\n<midi_index></midi_index>\n<pitch></pitch>\n<restrictions></restrictions>\n<notes></notes>\n<lyrics>•x\n.C       F\n Tady patří text\n.G      C\n A tady je další</lyrics>\n<linked_songs></linked_songs>\n<pad_file>Auto</pad_file>\n<custom_chords></custom_chords>\n<link_youtube></link_youtube>\n<link_web></link_web>\n<link_audio></link_audio>\n<loop_audio>false</loop_audio>\n<link_other></link_other>\n</song>"
+        
+        do {
+            try text.write(to: fileUrl!.appendingPathComponent(songName), atomically: true, encoding: .utf8)
+        }
+        catch (_) {
+            print("Error: Could not write to file")
+            return
+        }
+
+        loadSongs()
     }
     
 }
