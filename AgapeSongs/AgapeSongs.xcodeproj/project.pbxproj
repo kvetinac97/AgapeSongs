@@ -15,6 +15,8 @@
 		261747AF26837661000B2F11 /* VeraMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261747AD26837661000B2F11 /* VeraMono.ttf */; };
 		261747B526837776000B2F11 /* KeyEventHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261747B326837776000B2F11 /* KeyEventHandling.swift */; };
 		261747C526837BA8000B2F11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261747BF26837B19000B2F11 /* ContentView.swift */; };
+		2633300B27BA405600571FAD /* PlaylistDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633300A27BA405600571FAD /* PlaylistDropDelegate.swift */; };
+		2633300C27BA405600571FAD /* PlaylistDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2633300A27BA405600571FAD /* PlaylistDropDelegate.swift */; };
 		26638F9E268381BB0049866C /* SongListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26638F9D268381BB0049866C /* SongListItem.swift */; };
 		26638FA0268381C80049866C /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26638F9F268381C80049866C /* SongView.swift */; };
 		26638FA5268382CF0049866C /* PlaylistHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26638FA4268382CF0049866C /* PlaylistHolder.swift */; };
@@ -36,6 +38,7 @@
 		261747AD26837661000B2F11 /* VeraMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VeraMono.ttf; sourceTree = "<group>"; };
 		261747B326837776000B2F11 /* KeyEventHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyEventHandling.swift; sourceTree = "<group>"; };
 		261747BF26837B19000B2F11 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2633300A27BA405600571FAD /* PlaylistDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDropDelegate.swift; sourceTree = "<group>"; };
 		26638F9D268381BB0049866C /* SongListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListItem.swift; sourceTree = "<group>"; };
 		26638F9F268381C80049866C /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		26638FA4268382CF0049866C /* PlaylistHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHolder.swift; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 				26638F9D268381BB0049866C /* SongListItem.swift */,
 				26638F9F268381C80049866C /* SongView.swift */,
 				26A6620C269317BC00A0415E /* LeftMenu.swift */,
+				2633300A27BA405600571FAD /* PlaylistDropDelegate.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -252,6 +256,7 @@
 				26638F9E268381BB0049866C /* SongListItem.swift in Sources */,
 				261747A526837624000B2F11 /* Playlist.swift in Sources */,
 				26638FA5268382CF0049866C /* PlaylistHolder.swift in Sources */,
+				2633300B27BA405600571FAD /* PlaylistDropDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +273,7 @@
 				261747A626837624000B2F11 /* Playlist.swift in Sources */,
 				26638FA6268382CF0049866C /* PlaylistHolder.swift in Sources */,
 				261747B526837776000B2F11 /* KeyEventHandling.swift in Sources */,
+				2633300C27BA405600571FAD /* PlaylistDropDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LK4H72N842;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -400,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.cvut.fit.wrzecond.AgapeSongs;
 				PRODUCT_NAME = AgapeSongs;
 				SDKROOT = iphoneos;
@@ -415,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LK4H72N842;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -424,7 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.cvut.fit.wrzecond.AgapeSongs;
 				PRODUCT_NAME = AgapeSongs;
 				SDKROOT = iphoneos;
@@ -440,10 +446,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LK4H72N842;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -453,7 +459,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.cvut.fit.wrzecond.AgapeSongs;
 				PRODUCT_NAME = AgapeSongs;
 				SDKROOT = macosx;
@@ -467,10 +473,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LK4H72N842;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -480,7 +486,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.cvut.fit.wrzecond.AgapeSongs;
 				PRODUCT_NAME = AgapeSongs;
 				SDKROOT = macosx;

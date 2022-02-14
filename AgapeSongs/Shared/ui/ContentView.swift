@@ -36,7 +36,7 @@ struct ContentView: View {
             
             // Content (right part)
             if selection == nil {
-                Text("No songs selected.")
+                Text("No songs selected. To create a new song, write its name and press +")
                     .foregroundColor(.black)
             }
             else {

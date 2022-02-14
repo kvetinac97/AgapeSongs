@@ -53,27 +53,10 @@ struct SongListItem: View {
             }
         }
         .contextMenu(ContextMenu(menuItems: {
-            if song.listId == 0 {
-                Button("Remove from playlist") {
-                    playlistHolder.lists[0].songs.remove(at: song.songId)
-                    recalcIndexesAndSave()
-                }
-                if song.songId != 0 {
-                    Button("Move up") {
-                        swapAndSave(first: song.songId, second: song.songId - 1)
-                    }
-                }
-                if song.songId != playlistHolder.lists[0].songs.endIndex - 1 {
-                    Button("Move down") {
-                        swapAndSave(first: song.songId, second: song.songId + 1)
-                    }
-                }
-            }
-            else {
+            if song.listId != 0 && !playlistHolder.lists[0].songs.contains(where: { $0.realId == song.realId }) {
                 Button("Add to playlist") {
-                    let cpSong = Song(id: "P: " + song.id, lines: song.lines, realId: song.realId, realListId: song.realListId, listId: 0, songId: 0)
+                    let cpSong = Song(id: "P: " + song.id, lines: song.lines, realId: song.realId, realListId: song.realListId, listId: 0)
                     playlistHolder.lists[0].songs.append(cpSong)
-                    recalcIndexesAndSave()
                 }
             }
         }))
@@ -81,18 +64,8 @@ struct SongListItem: View {
     
     // Swap two items and save playlist changes
     private func swapAndSave (first: Int, second: Int) {
-        playlistHolder.lists[0].songs.swapAt(first, second)
-        playlistHolder.lists[0].songs[first].songId = first
-        playlistHolder.lists[0].songs[second].songId = second
-        playlistHolder.savePlaylist()
-    }
-    
-    // Recalculate indexes
-    private func recalcIndexesAndSave () {
-        if playlistHolder.lists[0].songs.count > 0 {
-            for i in 0...playlistHolder.lists[0].songs.count - 1 {
-                playlistHolder.lists[0].songs[i].songId = i
-            }
+        withAnimation(.default) {
+            playlistHolder.lists[0].songs.swapAt(first, second)
         }
         playlistHolder.savePlaylist()
     }

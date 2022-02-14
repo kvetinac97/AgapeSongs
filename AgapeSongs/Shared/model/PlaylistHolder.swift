@@ -31,6 +31,14 @@ final class PlaylistHolder : ObservableObject {
         var lists = [Playlist(id: "Playlist", songs: [])]
         var listId = 1
         
+        // Create first song
+        if let tmpUrl = fileUrl?.appendingPathComponent("Default") {
+            if !FileManager.default.fileExists(atPath: tmpUrl.path) {
+                try? FileManager.default.createDirectory(at: tmpUrl, withIntermediateDirectories: true, attributes: nil)
+                createSong(songName: "Test píseň")
+            }
+        }
+        
         // For each directory, create a playlist
         try? FileManager.default.contentsOfDirectory(at: fileUrl!, includingPropertiesForKeys: nil).sorted(by: {($0.pathComponents.last ?? "") < ($1.pathComponents.last ?? "")}).forEach {
             var songs = [Song]()
@@ -57,9 +65,8 @@ final class PlaylistHolder : ObservableObject {
             }
             
             // Sort alphabetically and reindex
-            songs.sort(by: {$0.id < $1.id})
+            songs.sort(by: {$0.id.localizedCompare($1.id) == .orderedAscending})
             for i in 0 ... songs.count - 1 {
-                songs[i].songId = i
                 tmpSongMap[songs[i].id] = i
             }
             
@@ -115,10 +122,14 @@ final class PlaylistHolder : ObservableObject {
         }
 
         // Reload song
-        let song = Song(id: song.id, lines: songText.components(separatedBy: "\n"), realId: song.realId, realListId: song.realListId, listId: song.listId, songId: song.songId)
+        let song = Song(id: song.id, lines: songText.components(separatedBy: "\n"), realId: song.realId, realListId: song.realListId, listId: song.listId)
         
-        originalLists[song.realListId].songs[song.songId] = song
-        lists[song.listId].songs[song.songId] = song
+        let realSongId = song.songId(self, in: song.realListId)
+        if realSongId == -1 { return }
+        originalLists[song.realListId].songs[realSongId] = song
+        
+        let songId = song.songId(self, in: song.listId)
+        lists[song.listId].songs[songId] = song
         newSelection = song
     }
     
@@ -148,7 +159,6 @@ final class PlaylistHolder : ObservableObject {
             }
             
             for i in 0 ... lists[1].songs.count - 1 {
-                lists[1].songs[i].songId = i
                 lists[1].songs[i].listId = 1 // real id stays right
                 tmpSongMap[lists[1].songs[i].id] = i
             }
@@ -169,7 +179,7 @@ final class PlaylistHolder : ObservableObject {
                 slideGroupParts.removeFirst()
                 for slideGroupPart in slideGroupParts {
                     if let songName = slideGroupPart.components(separatedBy: "name=\"").get(1)?.components(separatedBy: "\"").get(0) , let listName = slideGroupPart.components(separatedBy: "path=\"").get(1)?.components(separatedBy: "/\"").get(0), let song = lists.get(tmpPlaylistMap[listName] ?? -1)?.songs.get(tmpSongMap[songName] ?? -1)  {
-                        let cpSong = Song(id: "P: " + song.id, lines: song.lines, realId: song.id, realListId: song.listId, listId: 0, songId: lists[0].songs.count)
+                        let cpSong = Song(id: "P: " + song.id, lines: song.lines, realId: song.id, realListId: song.listId, listId: 0)
                         lists[0].songs.append(cpSong)
                     }
                     else {
@@ -182,10 +192,12 @@ final class PlaylistHolder : ObservableObject {
     
     // Function to save playlist
     func savePlaylist () {
+        print("Saving \(lists[0].songs.map { $0.id })")
         // Find document folder
         let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0] as NSURL
         // Find AgapeSongs folder
-        if let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Sets").appendingPathComponent("Playlist") {
+        if let folderUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Sets") {
+            let fileUrl = folderUrl.appendingPathComponent("Playlist")
             
             // Write songs
             var txt = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<set name=\"Playlist\">\n    <slide_groups>\n"
@@ -195,6 +207,14 @@ final class PlaylistHolder : ObservableObject {
             }
             
             txt += "    </slide_groups>\n</set>\n"
+            
+            if !FileManager.default.fileExists(atPath: fileUrl.path) {
+                try? FileManager.default.createDirectory(at: folderUrl, withIntermediateDirectories: true, attributes: nil)
+                if !FileManager.default.createFile(atPath: fileUrl.path, contents: nil, attributes: nil) {
+                    print("Create playlist folder file failed.")
+                    return
+                }
+            }
             
             try? txt.write(to: fileUrl, atomically: true, encoding: .utf8)
         }
@@ -207,13 +227,9 @@ final class PlaylistHolder : ObservableObject {
         // Find documents folder
         let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0] as NSURL
         
-        if originalLists.count < 2 {
-            return
-        }
-        
         // Find song file
         let fileUrl = documentsUrl.appendingPathComponent("AgapeSongs-master")?.appendingPathComponent("Songs")
-            .appendingPathComponent(originalLists[1].id)
+            .appendingPathComponent(originalLists.count >= 2 ? originalLists[1].id : "Default")
             
         if fileUrl == nil {
             return

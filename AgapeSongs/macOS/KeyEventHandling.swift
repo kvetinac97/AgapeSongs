@@ -29,7 +29,7 @@ struct KeyEventHandling : NSViewRepresentable {
 
         override var acceptsFirstResponder: Bool { true }
 
-        override func keyDown (with event: NSEvent) {            
+        override func keyDown (with event: NSEvent) {
             // Move on key up / key down
             if !editMode.wrappedValue && (event.keyCode == 125 || event.keyCode == 126) && text.wrappedValue.isEmpty {
                 // Select first item
@@ -39,7 +39,10 @@ struct KeyEventHandling : NSViewRepresentable {
                 }
                 
                 let actualListId = selection.wrappedValue!.listId
-                let actualSongId = selection.wrappedValue!.songId
+                var actualSongId = 0
+                if #available(macOS 12.0, *) {
+                    actualSongId = lists[actualListId].songs.firstIndex { $0.wrappedValue.id == selection.wrappedValue!.id } ?? 0
+                }
                 let newSongId = actualSongId + (event.keyCode == 125 ? 1 : -1)
                 
                 // We need to switch playlist

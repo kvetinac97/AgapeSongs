@@ -10,7 +10,7 @@ import Foundation
 /*
  * One concrete song representation
  */
-struct Song : Identifiable, Codable, Equatable {
+struct Song : Identifiable, Codable, Equatable, Hashable {
     // Name of song
     let id: String
     // All the chords/text lines
@@ -23,5 +23,21 @@ struct Song : Identifiable, Codable, Equatable {
     
     // Position in playlist
     var listId: Int
-    var songId = 0
+}
+
+struct DisplayLine: Identifiable, Hashable {
+    let id: Int
+    let text: String
+}
+
+extension Song {
+    var displayLines: [DisplayLine] {
+        lines.indices.map { DisplayLine(id: $0, text: lines[$0]) }
+    }
+    
+    func songId(_ playlistHolder: PlaylistHolder, in list: Int = 0) -> Int {
+        return playlistHolder.lists[list].songs.firstIndex { $0.id == id } ?? 0
+    }
+    
+    static let preview = Song(id: "", lines: [], realId: "", realListId: 0, listId: 0)
 }

@@ -52,15 +52,16 @@ struct SongView: View {
             VStack {
                 if editMode {
                     TextEditor(text: $songText)
+                        .lineSpacing(2)
                         .font(.custom("Bitstream Vera Sans Mono", size: textSize))
                 }
                 else {
                     ScrollView {
-                        ForEach(song.lines, id: \.self) { line in
+                        ForEach(song.displayLines, id: \.self) { line in
                             HStack {
                                 // OpenSong format - dot = chords, space = text
-                                Text(line.starts(with: ".") || line.starts(with: " ") ? String(line.suffix(from: line.index(line.startIndex, offsetBy: 1))).trim() : line.trim())
-                                    .foregroundColor(line.starts(with: ".") ? Color.red : Color.black)
+                                Text(line.text.starts(with: ".") || line.text.starts(with: " ") ? String(line.text.suffix(from: line.text.index(line.text.startIndex, offsetBy: 1))).trim() : line.text.trim())
+                                    .foregroundColor(line.text.starts(with: ".") ? Color.red : Color.black)
                                     .font(.custom("Bitstream Vera Sans Mono", size: textSize))
                                 Spacer()
                             }
@@ -76,13 +77,13 @@ struct SongView: View {
                 
                 HStack {
                     #if os(iOS)
-                    if !editMode && song.listId == 0 && song.songId != 0 {
+                    if !editMode && song.listId == 0 && song.songId(playlistHolder) != 0 {
                         Image(systemName: "arrow.left.circle.fill")
                             .resizable()
                             .frame(width: 50, height: 50)
                             .foregroundColor(.blue.opacity(0.5))
                             .onTapGesture {
-                                selection = playlistHolder.lists[0].songs[song.songId - 1]
+                                selection = playlistHolder.lists[0].songs[song.songId(playlistHolder) - 1]
                             }
                     }
                     #endif
@@ -112,13 +113,13 @@ struct SongView: View {
                     }
                     
                     #if os(iOS)
-                    if !editMode && song.listId == 0 && song.songId != playlistHolder.lists[0].songs.endIndex - 1 {
+                    if !editMode && song.listId == 0 && song.songId(playlistHolder) != playlistHolder.lists[0].songs.endIndex - 1 {
                         Image(systemName: "arrow.right.circle.fill")
                             .resizable()
                             .frame(width: 50, height: 50)
                             .foregroundColor(.blue.opacity(0.5))
                             .onTapGesture {
-                                selection = playlistHolder.lists[0].songs[song.songId + 1]
+                                selection = playlistHolder.lists[0].songs[song.songId(playlistHolder) + 1]
                             }
                     }
                     #endif
