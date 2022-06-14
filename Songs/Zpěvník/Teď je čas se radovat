@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Teď je čas se radovat</title>
-  <lyrics>[V1]
+<title>Teď je čas se radovat</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo>112</tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>C</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 
 .C             F
  Teď je čas se radovat
 .     G             C
@@ -10,12 +34,12 @@
  teď je čas se radovat,
 .  G              C
  a smát se, tancovat.
-[P]
+ 
 .          C           F
  Ať lidé vidí, ať zatančí,
 .        G             C
  ať zpívají, ať se radují.
-[C]
+ 
 .C   G     F  C
  Hosana, hosana, ať všichni
 .                             G
@@ -23,22 +47,14 @@
 .Ami  Emi F    C
  Hosana, hosana, radost dal
 .                    G       C
- jsi nám, Ty jsi všemohoucí Král!</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ jsi nám, Ty jsi všemohoucí Král!
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

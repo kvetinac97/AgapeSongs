@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Ježíš, Boží syn</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number>034</hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme>;</theme>
-  <alttheme>;</alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
-  <lyrics> •160(80)
-.D      Emi       D     A        Hmi G A
+<title>Ježíš, Boží Syn</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo>160</tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>D</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.D      Emi       D     A        Hmi G A
  Ježíš, Boží Syn, Ježíš mě zbavil vin.
  
 .Emi          A7    Emi         A7
@@ -36,15 +35,14 @@
  
  Jemu patří sláva, Jemu patří dík,
  má chvála za spasení.
+ 
 </lyrics>
-  <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <abcnotation></abcnotation>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

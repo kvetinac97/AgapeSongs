@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Už viac nie som strachu</title>
-  <lyrics>.        B             Dmi
+<title>Už viac nie som strachu</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>B</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.        B             Dmi
  Piesňou rozlomíš moje okovy,
 .       Eb       F   B
  Keď ma dvíhaš v náručí.
  Od nepriateľov oslobodený,
  Viac báť sa nemusím.
- 
 .        Eb      F           B
  Už viac nie som strachu otrokom,
 .    Gmi   F    B
@@ -22,28 +45,19 @@
  
 .Gmi, F, B, Eb
  Oooo oooo oooo oooo
- 
 .Gmi      F             B     Eb
  Rozdelíš more, stredom môžem kráčať
 .Gmi      F          B
  A všetky strachy utopíš.
  Zachránený od smrti spievať smiem
- Som Božím dieťaťom.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Som Božím dieťaťom.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

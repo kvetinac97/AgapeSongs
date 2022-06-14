@@ -1,31 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Ve Tvém srdci je soucit</title>
-  <lyrics>.        F#mi     D        A      E
+<title>Ve Tvém srdci je soucit</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>E</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.        Emi      C        G      D
  Ve Tvém srdci je soucit a slitování,
-.       F#mi  D        E
+.       Emi   C        D
  prapor lásky Tvé nade mnou.
- 
-.        F#mi      D      E       F#mi
+.        Emi      C       D       Emi
  S Tebou setkat se toužím tváří v tvář,
-.         Hmi       E       F#mi
+.         Ami       D       Emi
  navždy v blízkosti Tvé pak stát.
-.       D        E      A
+.       C        D      G
  Jak je nádherné víc Tě znát.
  
-.      D          A        E
+.      C          G        D
  Nádherný, pro mě vším jsi sám,
-.      D         F#mi    E
+.      C         Emi    D
  nádherný, čistý můj jsi Pán.
- 
-.D         A          E     F#mi
+.C         G          D     Emi
  Hoden jsi slávy, jsi králů Král,
-.       D        E      F#mi (A)
+.       C        D      Emi (G)
  jak je nádherné víc Tě znát.
  
  Ve Tvých rukou je právo, jsi spravedlivý,
  jas Tvé tváře, jak úsvit nade mnou.
- 
  Ty jsi Stvořitel - Bůh, mého života Pán,
  Tobě chválu a díky vzdám.
  Jak je nádherné víc Tě znát.
@@ -33,25 +54,16 @@
  Budem chválit Tvé jméno,
  ať svaté je v nás;
  Tebe chválit a vzývat budem dál !
- 
  Ve Tvé moci a slávě chcem na věky žít,
  v srdci vděčnost a lásku mít,
- Jak je nádherné blíž Ti být.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Jak je nádherné blíž Ti být.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

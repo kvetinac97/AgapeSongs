@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Jásej, tleskej, volej vítězně</title>
-  <lyrics>.Gmi                    Cmi
+<title>Jásej, tleskej, volej vítězně</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>G</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.Gmi                    Cmi
  Den za dnem je blíže nový Jeruzalém,
 .D                      Gmi 
  den za dnem je blíže nový Jeruzalém
-.Gmi                 Cmi
+.G                   Cmi
  Beránkova svatba je u konce příprav.
 .F                    Gmi
  My jsme pozvaní k svatební večeři.
-.Gmi                 Cmi
+.G                   Cmi
  Beránkova svatba je u konce příprav.
 .    D     Gmi
  Buď připraven!
@@ -20,7 +44,6 @@
  z Lásky za nás život položil.
  Vykoupil nás na Golgatě z naších vin.
  Za náš hřích On krví zaplatil.
- 
 .Eb F            Gmi    (konec D Gmi)
  Jásej, tleskej, volej vítězně: hej!
  Ježíš slavně zvítězil!
@@ -31,28 +54,19 @@
  pevně svoje slovo postavil.
  Krví očištění můžem vyznávat:
  Dobrý Bůh nám z lásky odpustil.
- 
 .Gmi
  Ó Bože my Tě s láskou ctíme!
 .D
  Píseň chvály zvučně ať vždy zní!
  Tebe celým srdcem milujeme!
- Jsi úžasný Pán!</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Jsi úžasný Pán!
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

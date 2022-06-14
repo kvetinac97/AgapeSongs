@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Vzácné je znát jméno Ježíš</title>
-  <lyrics>!NEZNÁM, AKORDY!!!
+<title>Vzácné je znát jméno Ježíš</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>D</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> !NEZNÁM, AKORDY!!!
 . D                   G     Hmi A D         E  A7
  Vzácné je znát jméno Ježíš, toužím být Tobě blíž.
 .     G           D           G     A      Hmi
  Cesta má je vítězná, když mi sílu dáš ty Sám.
 .        E      A         G D
  Na věky vládne nám pokoj Tvůj.
-[V2]
+ [V2]
  Ó, Duchu svatý, Ty jsi mocný, dáváš nám sílu jít vždy výš.
  Pravda Tvá je skálou mou, přináším Ti chválu svou.
  Na věky vládne nám pokoj Tvůj.
-[C]
+ [C]
 .A        Hmi              G           D
  Můj Králi žízním, chci Tě znát ještě víc.
 .A        Hmi              E        A
@@ -24,22 +48,14 @@
 .        E          A       D          G
  Když Ty přijdeš k nám, Tvá moc mi sílu dá.
 .        E       A       G   D
- Na věky vládne nám pokoj Tvůj.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Na věky vládne nám pokoj Tvůj.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

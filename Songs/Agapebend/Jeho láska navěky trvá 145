@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Jeho láska navěky trvá</title>
-  <lyrics>.   F
+<title>Jeho láska navěky trvá</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>F</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.   F
  Ať Jemu zní dík, našemu Pánu,
  Jeho Láska na věky trvá!
 .          B
@@ -11,7 +35,7 @@
  
 .    C       B
  Tak dík mu vzdej!
-  
+ 
  On oporou je i naší skálou,
  Jeho Láska na věky trvá!
  On žije v nás, a my v něm,
@@ -26,22 +50,14 @@
 .    C
  Náš Bůh je stále s námi!
 .   B      (F)
- Od věků na věky!</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Od věků na věky!
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

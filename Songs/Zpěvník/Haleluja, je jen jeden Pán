@@ -1,59 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Haleluja, je jen jeden Pán</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
-  <lyrics>.F
+<title>Haleluja, je jen jeden Pán</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>E</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 🎵-104,capo1
+.E
  Haleluja, je jen jeden Pán,
  z nás chce mít svůj chrám.
  Haleluja, zjevil vůli svou,
  mít církev jednotnou.
-
+ 
  Pán chce tu z nás krásnou církev mít
  připravenou, ozdobenou, vyvolený lid.
  Každý, i ty, máš, co můžeš druhým dát,
  to čím tě Bůh obdaroval, rozdávej dál.
-
+ 
  Pán chce tu mít svou církev v jednotě,
  a když nás k tomu povolal,
  tak určitě to jde.
  Je jenom jedna víra, jen jeden je křest,
  je jedno tělo, jeden Duch a jedna naděje.
-.   F            Bb
+.   E            A
  Je jeden Pán, a jeden Duch,
-.Eb
+.D
  jeden Otec, věčný Bůh,
-.F           Bb            C#    Eb  F
- jedna víra, jeden křest a jedna naděje.</lyrics>
-  <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+.E           A             C     D   E
+ jedna víra, jeden křest a jedna naděje.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

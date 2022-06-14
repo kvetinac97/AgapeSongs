@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Je čas hledat Pána</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo>199</tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
-  <lyrics> •120
-.    Emi7               D
+<title>Je čas hledat Pána</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo>120</tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>G</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.    Emi7               D
  Je čas hledat Pána, je čas znovu povstat,
 .   C                     Emi7
  je čas v Boží zbroji teď stát.
  Tak vem štít víry a pozdvihni meč Ducha,
  buď pevně pravdou opásán.
+ 
 .    D     C         G           C
  A s vírou zpívej tu píseň vítězství,
 .      D            C                Dsus D
  vždyť Hospodin sám kraluje navěky a navždy.
+ 
 .G              Ami7
  Vzhůru pojďme, vzhůru pojďme,
 .G              C         D
@@ -44,14 +45,14 @@
  Vždyť Bůh je s námi, Bůh je s námi,
 .  G            C           D      G
  Bůh je s námi, jistě se jí zmocníme !
+ 
 </lyrics>
-  <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Duchu Svatý, Ty jsi se mnou</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
-  <lyrics>.F
+<title>Duchu Svatý, Ty jsi se mnou</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>E</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 🎵-104 capo1
+.E
  Duchu Svatý Ty jsi se mnou,
-.                            C
+.                            H
  Duchu Svatý, s Tebou toužím žít,
-.Bb             F
+.A              E
  s Tebou toužím žít.
  Milost, spásu, Ty mi dáváš,
  já dnes žízním, Duchu Svatý víc,
  já chci mnohem víc.
-.Gmi       C            F
+.F#mi       H           E
  Pane, kéž stále smýváš hřích,
-.          Dmi
+.          C#mi
  každý můj hřích.
  Naplň mne láskou svou Ty sám,
  jen Ty sám.
-.Bb           F
+.A            E
  Tvá blízkost je vzácná,
-.Bb      C
+.A      H
  po Tobě toužím.
  Vzývám Tě, chválím Tě,
-.               Csus C
+.               Hsus H
  jen Ty buď mým Pánem!
+ 
 </lyrics>
-  <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

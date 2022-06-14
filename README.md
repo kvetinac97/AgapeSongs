@@ -1,5 +1,13 @@
 # AgapeSongs
 
-Písničky z AC Agape
+Písničky z různých křesťanských církví a společenství
 
-Pokyny k instalaci naleznete na [**Wiki**](https://github.com/kvetinac97/AgapeSongs/wiki)
+## Uživatelé
+
+ - Apoštolská církev Agapé Český Těšín ([sboragape.cz](http://sboragape.cz))
+ - Křesťanský sbor Český Těšín ([kstesin.cz](http://kstesin.cz))
+ - Mládež Přístav Český Těšín ([kcmojska.cz/pristav](https://kcmojska.cz/pristav/))
+
+## Instalace, nastavení
+
+Pokyny naleznete na [**Wiki**](https://github.com/kvetinac97/AgapeSongs/wiki)

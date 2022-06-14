@@ -1,48 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Jak wielki jest Bóg</title>
-  <lyrics>.A
+<title>Jak wielki jest Bóg</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo>86</tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>E</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.E
  To On nasz Pan i Król,
-. F#mi
+. C#mi
  odziany w majestat swój.
-.             D
+.             A
  Ziemio raduj się, ziemio raduj się.
  Okrywa światłość Go, ucieka ciemność i zło.
  I drży na Jego głos, i drży na Jego głos.
- 
-.    A
+.    E
  Jak wielki jest Bóg, wysławiaj Go.
-.    F#mi
+.    C#mi
  Jak wielki jest Bóg, świat ujrzy to.
-.    D      E         A
+.    A      H         E
  Jak wielki jest nasz Bóg.
  
  On czas w swej dłoni ma, od wieków na wieki trwa.
  Początkiem i końcem On, początkiem i końcem On.
  Jedyny w Trójcy Bóg, Ojciec Syn i Duch
  Barankiem jest i lwem, barankiem jest i lwem.
- 
-.   A
+.   E
  Na wieki godzien jest,
-.        F#mi
+.        C#mi
  przyjąć chwałę, moc i cześć.
-.D                  E           A
- Ogłaszać chcę, jak wielki jest Bóg.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+.A                  H           E
+ Ogłaszać chcę, jak wielki jest Bóg.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

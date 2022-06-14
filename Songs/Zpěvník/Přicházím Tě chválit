@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Přicházím Tě chválit</title>
-  <lyrics>.C#      G#           F#
+<title>Přicházím Tě chválit</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>A</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 🎵 capo3
+.A        E           D
  Díky, Pane, vstoupil jsi láskou do tmy,
  dal prohlédnout očím mým.
  Nádhera Tvá vede mne k uctívání.
  Žít navěky s Tebou smím.
-
-.             C#
- Přicházím Tě chválit, 
-.              G#
+ 
+.             A
+ Přicházím Tě chválit,
+.              E
  před Tebou se skláním,
-.                Bbmi
+.                F#mi
  před Tebou, můj Králi,
-.          F#
+.          D
  chci pokleknout.
  Jsi dokonale krásný,
  přenádherný, vzácný,
  skláním se před Tvou nádherou.
-
+ 
  Králi věků, nade vše vyvýšený
  v slávě Otce v nebesích.
  Přišels na zem, kterou sám jsi stvořil,
  svůj život dal za můj hřích.
-
+ 
  Já stále chci chválit jméno Tvé,
- pro oběť Tvou za hříchy mé.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ pro oběť Tvou za hříchy mé.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

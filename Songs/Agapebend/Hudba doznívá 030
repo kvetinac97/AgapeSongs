@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Hudba doznívá</title>
-  <lyrics>!!! NEZNÁM, AKORDY
-.C        G
- Hudba doznívá,     
+<title>Hudba doznívá</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo>70</tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>C</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics>.C        G
+ Hudba doznívá,
 .        Dmi7
  k Tobě přicházím,
 .            G
@@ -11,44 +34,36 @@
  Přinést něco snad,
  co pravou cenu má,
  co bys Ty měl rád.
-  
+ 
 .Dmi7     C/E       G
  Chci víc než píseň Ti dát,
- vždyť jen píseň pouhá
- není tím, co by sis přál.
+ nejen krásná slova.
+ Co víc než sebe Ti dám?
  Ty zkoumáš hlubiny mé
- i to očím skryté,
+ skryté nic ti není,
  Ty vidíš, co v srdci mám.
-  
+ 
 .C              G/H
  Toužím teď do srdce chvály vstoupit,
-.   Dmi7 C/E F  G       C
+.   Dmi7        C/E F  G           C
  kde jsi jedině Ty, jedině Ty, Ježíši.
  Přiznávám, Pane, že vždy nejsem věrný,
  to jsi jedině Ty, jedině Ty, Ježíši.
-  
+ 
  Ty jsi věčný Král,
  kdo jen vyjádří
  co Ti náleží?
- I když chudý jsem,
- vše, co mám, si vem,
+ I když slabý jsem,
+ Pane, vše si vem,
  každý dech je Tvůj.
+ 
 </lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false" sharp="true"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

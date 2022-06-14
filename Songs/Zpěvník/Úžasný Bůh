@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Úžasný Bůh</title>
-  <lyrics>!NEZNÁM, AKORDY!!!
+<title>Úžasný Bůh</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>F</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 🎵90
 . F          C
  Úžasný Bůh, vesmíru vládce.
-.Bb             Bbmi             Dmi
- Vím, že jsi můj nejlepší rádce, jsem v ruce Tvé,
+.Bb             Bbmi           
+ Vím, že jsi můj nejlepší rádce,
+.Dmi
+ jsem v ruce Tvé,
 .G7                  Bb         C
  vždy pro mě máš tak zvláštní plán.
-[V2]
+ 
  Vedeš mě stále do svojí slávy,
- jen s Duchem Tvým, chci, Pane, dál jít
- v blízkosti Tvé, až do posledních dnů zůstávám.
-[C]
+ jen s Duchem Tvým,
+ chci, Pane, dál jít
+ v blízkosti Tvé,
+ až do posledních dnů zůstávám.
+ 
 .Dmi              C
  Jsem v ruce tvé, své plány skládám.
 .F                  Bb
@@ -23,22 +51,14 @@
  Toužím dál jít, dílem Tvým být.
 .    Eb          Gmi                 C
  Jsi hrnčířem, já hlínou v rukou Tvých.
- Pánem jsi vzácným, vůdcem, který chrání.</lyrics>
-  <author></author>
-  <copyright></copyright>
-  <hymn_number></hymn_number>
-  <presentation></presentation>
-  <ccli></ccli>
-  <capo print="false"></capo>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <theme></theme>
-  <linked_songs/>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+ Pánem jsi vzácným, vůdcem, který chrání.
+</lyrics>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>

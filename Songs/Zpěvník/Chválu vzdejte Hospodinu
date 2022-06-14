@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-  <title>Chválu vzdejte Hospodinu</title>
-  <author></author>
-  <copyright></copyright>
-  <presentation></presentation>
-  <hymn_number></hymn_number>
-  <capo print="false"></capo>
-  <tempo></tempo>
-  <time_sig></time_sig>
-  <duration></duration>
-  <predelay></predelay>
-  <ccli></ccli>
-  <theme></theme>
-  <alttheme></alttheme>
-  <user1></user1>
-  <user2></user2>
-  <user3></user3>
-  <key></key>
-  <aka></aka>
-  <key_line></key_line>
-  <books></books>
-  <midi></midi>
-  <midi_index></midi_index>
-  <pitch></pitch>
-  <restrictions></restrictions>
-  <notes></notes>
-  <lyrics>.A
- Chválu vzdejte Hospodinu, protože je dobrý.
+<title>Chválu vzdejte Hospodinu</title>
+<author></author>
+<copyright></copyright>
+<presentation></presentation>
+<hymn_number></hymn_number>
+<capo print=""></capo>
+<tempo></tempo>
+<time_sig></time_sig>
+<duration></duration>
+<predelay></predelay>
+<ccli></ccli>
+<theme></theme>
+<alttheme></alttheme>
+<user1></user1>
+<user2></user2>
+<user3></user3>
+<key>A</key>
+<aka></aka>
+<key_line></key_line>
+<books></books>
+<midi></midi>
+<midi_index></midi_index>
+<pitch></pitch>
+<restrictions></restrictions>
+<notes></notes>
+<lyrics> 🎵-72
+.A
+ Chválu vzdejte Hospodinu,protože je dobrý.
 .     G                A
  Jeho milosrdenství je věčné.
  Chválu vzdejte Bohu bohů.
@@ -35,30 +36,30 @@
  Jeho milosrdenství je věčné.
  Jedině On koná veliké divy.
  Jeho milosrdenství je věčné.
-
+ 
 .     D                  C2
  Jako vysoko je nad zemí nebe,
  jako vysoko je nad zemí nebe,
 .       F            G             D
  tak se nad námi Tvé milosrdenství klene.
-
- Zemi na vodách překlenul oblohou, Jeho ...
- učinil veliká světla, Jeho ...
- Slunce, aby vládlo ve dne, Jeho ...
- Měsíc a hvězdy, aby vládli v noci, Jeho ...
-
- Když jsme byli poníženi, rozpoměl se na nás ...
- A vyrval nás našim protivníkům, Jeho ...
- Veškerému tvorstvu dává pokrm, Jeho ...
- Chválu vzdejte Bohu nebes, Jeho ...
+ 
+ Zemi na vodách překlenul oblohou,
+ učinil veliká světla,
+ Slunce, aby vládlo ve dne,
+ Měsíc a hvězdy, aby vládli v noci,
+ 
+ Když jsme byli poníženi,rozpoměl se na nás
+ A vyrval nás našim protivníkům,
+ Veškerému tvorstvu dává pokrm,
+ Chválu vzdejte Bohu nebes.
+ 
 </lyrics>
-  <linked_songs></linked_songs>
-  <pad_file>Auto</pad_file>
-  <custom_chords></custom_chords>
-  <link_youtube></link_youtube>
-  <link_web></link_web>
-  <link_audio></link_audio>
-  <loop_audio>false</loop_audio>
-  <link_other></link_other>
-  <backgrounds resize="screen" keep_aspect="false" link="false" background_as_text="false"/>
+<linked_songs></linked_songs>
+<pad_file>Auto</pad_file>
+<custom_chords></custom_chords>
+<link_youtube></link_youtube>
+<link_web></link_web>
+<link_audio></link_audio>
+<loop_audio>false</loop_audio>
+<link_other></link_other>
 </song>
