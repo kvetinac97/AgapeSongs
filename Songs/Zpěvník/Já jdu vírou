@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Svätá radost</title>
+<title>Já jdu vírou</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
 <hymn_number></hymn_number>
 <capo print=""></capo>
-<tempo>132</tempo>
+<tempo>130</tempo>
 <time_sig></time_sig>
 <duration></duration>
 <predelay></predelay>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>A</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,17 +25,30 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics>.       Ami
- Nech je uvoľnená svätá radosť v nás
-.F
- uvoľnený tvoj Duch, môj Pán
-.C                 G
- Príď a daj sa nám napiť
+<lyrics>.F
+ Já jdu vírou.
+.  Eb                 B
+ Každý svůj krok chci žít vírou.
+.         F
+ Důvěřují Pánu jen.
  
- Chcem vidieť teba, Kráľ
- a vidieť tvoju tvár
- Počuť tvoje srdce biť
- na zemi ako v nebi.
+.B            F
+ Všechny svoje kroky
+.Gmi            C
+ chodím jenom s Ním.
+.B             F
+ A šíp co ďábel střílí
+.    Gmi C
+ mě  míjí.
+ 
+.B         F
+ Každá moje prosba
+.Gmi           C
+ jde před Boží tvář
+.B                F
+ A když můj Bůh je se mnou
+.   Eb         C
+ má víra stále sílí.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

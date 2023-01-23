@@ -6,7 +6,7 @@
 <presentation></presentation>
 <hymn_number></hymn_number>
 <capo print=""></capo>
-<tempo></tempo>
+<tempo>66</tempo>
 <time_sig></time_sig>
 <duration></duration>
 <predelay></predelay>
@@ -25,8 +25,7 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> 
-.    Dmi          Ami      Dmi
+<lyrics>.    Dmi          Ami      Dmi
  Pane můj, Ty jediný a vzácný.
 .                 Ami        G2
  Pane můj, Ty jediný, Svatý Králi.

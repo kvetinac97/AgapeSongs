@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Svätá radost</title>
+<title>Všechno zajisté</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
 <hymn_number></hymn_number>
 <capo print=""></capo>
-<tempo>132</tempo>
+<tempo>130</tempo>
 <time_sig></time_sig>
 <duration></duration>
 <predelay></predelay>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>A</key>
+<key>C</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,17 +25,19 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics>.       Ami
- Nech je uvoľnená svätá radosť v nás
-.F
- uvoľnený tvoj Duch, môj Pán
-.C                 G
- Príď a daj sa nám napiť
+<lyrics>.Emi
+ Všechno zajisté co se narodilo z Boha
+.C       Emi
+ přemáhá svět.
+.         A
+ To je to vítězství, které přemáhá svět,
+.      Emi D  Emi
+ totiž víra naše.
  
- Chcem vidieť teba, Kráľ
- a vidieť tvoju tvár
- Počuť tvoje srdce biť
- na zemi ako v nebi.
+ Kdo je ježto přemáhá svět? Jedině kdo věří,
+ že Ježíš je syn Boží.
+ To je to vítězství, které přemáhá svět,
+ totiž víra naše.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>
