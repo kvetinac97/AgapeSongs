@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>D</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,19 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Usnul již celý náš dům, světýlka v oknech šla spát, poplujem v postýlkách naproti snům, Pán Ježíš nás má rád. Poplujem v postýlkách naproti snům, Pán Ježíš nás má rád.
- Usnula celičká zem, do trávy ulehla tma, aj, nespí, nedřímá Pán Ježíš jen, své děti ostříhá. Aj, nespí, nedřímá Pán Ježíš jen, své děti ostříhá.
+<lyrics>.D         A7       D
+ Usnul již celý náš dům,
+.           A7         D D7
+ světýlka v oknech šla spát,
+.G                     A       Hmi
+ poplujem v postýlkách naproti snům,
+.Emi       A      D D7
+ Pán Ježíš nás má rád.
  
+ Usnula celičká zem,
+ do trávy ulehla tma,
+ aj, nespí, nedřímá Pán Ježíš jen,
+ své děti ostříhá.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

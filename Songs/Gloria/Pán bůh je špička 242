@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Pán bůh je špička</title>
+<title>Pán Bůh je špička</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,11 +25,27 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pán Bůh je špička, absolutní špička, nemá rovného. Pán Bůh je špička, absolutní špička, není nad něho.
- Tenis, fotbal, NHL, každý by to vyhrát chtěl, ale žádný šampión nedokáže to, co On! Ref.: Pán Bůh...
- Na tu příčku v žebříčku pyšný ani trošičku, vždycky udělá si čas i na posledního z nás. Ref.: Pán Bůh...
- Kámoš zradil? Nevadí, Bůh mě nikdy nezradí, protože už navždy jsem jeho vlastním dítětem. Ref.: Pán Bůh...
+<lyrics>.           G       C         G
+ Pán Bůh je špička, absolutní špička,
+.Ami  G    D
+ nemá rovného.
+.           G       C         G
+ Pán Bůh je špička, absolutní špička,
+.Ami  D     G
+ není nad něho.
  
+.C D Em Am G
+ Tenis, fotbal, NHL,
+ každý by to vyhrát chtěl,
+ ale žádný šampión nedokáže to, co On!
+ 
+ Na tu příčku v žebříčku pyšný ani trošičku,
+ vždycky udělá si čas
+ i na posledního z nás.
+ 
+ Kámoš zradil? Nevadí, Bůh mě nikdy nezradí,
+ protože už navždy jsem
+ jeho vlastním dítětem.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

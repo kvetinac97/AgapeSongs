@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,17 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pojďte ke mně všichni, kteří pracujete. Pojďte ke mně všichni, kdo jste obtíženi.
- /:A já vám, praví Pán, já vám odpočinek dám. A já vám, praví Pán, já vám odpočinek dám.:/
+<lyrics>.G      D           Emi7 C
+ Pojďte ke mně všichni,
+.G     D7     G (D7)
+ kteří pracujete.
+ Pojďte ke mně všichni,
+ kdo jste obtíženi.
  
+.  G  D    Emi7  C
+ A já vám, praví Pán,
+.G      D7        G
+ já vám odpočinek dám.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

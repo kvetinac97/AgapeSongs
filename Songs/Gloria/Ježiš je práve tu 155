@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,16 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Ježiš je práve tu, Ježiš je práve tu
- So svojou veľkou mocou On ma zachrání, so svojou veľkou mocou On ma uzdraví, so svojou veľkou mocou On ma vyslobodí, Ježiš je práve tu.
- 
+<lyrics>.C        D     G   C        D     G
+ Ježiš je práve tu, Ježiš je práve tu
+.C         D        G         Emi
+ So svojou veľkou mocou On ma zachráni,
+.C         D        G         Emi
+ so svojou veľkou mocou On ma uzdraví,
+.C         D        G           Emi
+ so svojou veľkou mocou On ma vyslobodí,
+.C        D7    G
+ Ježiš je práve tu.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

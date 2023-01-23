@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,13 +25,38 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pane, chválím jméno Tvé. Tobě k slávě zpívám písně. Život můj máš v ruce své, zachránils mou duši z tísně.
- On přišel z nebe na zem k nám a žít učil. Pak byl na kříž vyvýšen, tím hřích můj smyl. Z kříže dán do hrobu tmy, z hrobu zmrtvýchvstal slavný. Pane chválím jméno Tvé.
- II.verze textu
- Tvoje jméno vyznávám, rád ti zpívám svoji chválu, jsem tak vděčný, že Tě znám, jsem tak vděčný za Tvou spásu.
- Přišel jsi k nám z nebes, ukázat směr, dát v oběť sám sebe, jak Bůh to chtěl.
- Z kříže byls do hrobu dán, třetí den jsi zmrtvýchvstal, Tvoje jméno vyznávám.
+<lyrics>.G     C             D
+ Pane, chválím jméno Tvé.
+ Tobě k slávě zpívám písně.
+ Život můj máš v ruce své,
+ zachránils mou duši z tísně.
  
+.G           C
+ On přišel z nebe na zem
+.  D     C (G)
+ k nám a žít učil.
+ Pak byl na kříž vyvýšen,
+ tím hřích můj smyl.
+ 
+.G       Ami          D
+ Z kříže dán do hrobu tmy,
+.        Emi.             C
+ z hrobu zmrtvýchvstal slavný.
+.     D             G
+ Pane chválím jméno Tvé.
+ 
+ II.verze textu
+ Tvoje jméno vyznávám,
+ rád ti zpívám svoji chválu,
+ jsem tak vděčný, že Tě znám,
+ jsem tak vděčný za Tvou spásu.
+ 
+ Přišel jsi k nám z nebes,
+ ukázat směr, dát v oběť sám sebe,
+ jak Bůh to chtěl.
+ Z kříže byls do hrobu dán,
+ třetí den jsi zmrtvýchvstal,
+ Tvoje jméno vyznávám.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

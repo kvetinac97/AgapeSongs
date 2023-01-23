@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,11 +25,29 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Z wiarą wstań i śpiewaj pieśń, o wspaniałym Królu chwał, bo w słabości siłę masz, z niepewności wyjście znasz.
- Wołaj ze wszystkich sił, w każdą ze świata stron, Jezus zbawiciel nasz, Panem nieba jest!
- W prawdzie wstań i śpiewaj pieśń, do złamanych śpiewaj serc, mogą poznać Jego moc, moc co leczy, Króla moc. Ref.: Wołaj ze wszystkich sił...
- Choć złamane skrzydła masz, wstań Kościele, Pana chwal, niech znów zabrzmi twoja pieśń, z łaski w górę wzbijesz się. Ref.: Wołaj ze wszystkich sił...
+<lyrics>.        G       D       C
+ Z wiarą wstań i śpiewaj pieśń,
+ o wspaniałym Królu chwał,
+ bo w słabości siłę masz,
+ z niepewności wyjście znasz.
  
+.G        C          D
+ Wołaj ze wszystkich sił,
+ w każdą ze świata stron,
+.Emi7     C      D
+ Jezus zbawiciel nasz,
+.C     D     G
+ Panem nieba jest!
+ 
+ W prawdzie wstań i śpiewaj pieśń,
+ do złamanych śpiewaj serc,
+ mogą poznać Jego moc,
+ moc co leczy, Króla moc.
+ 
+ Choć złamane skrzydła masz,
+ wstań Kościele, Pana chwal,
+ niech znów zabrzmi twoja pieśń,
+ z łaski w górę wzbijesz się.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

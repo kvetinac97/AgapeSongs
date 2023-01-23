@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Pane bože přijď k nám</title>
+<title>Pane Bože přijď k nám</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>A</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,8 +25,30 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> /:Pane Bože přijď k nám ve své moci a slávě, přebývej mezi námi, navštiv lid svůj. Přijď Ježíši k nám Ty jsi hlava své církve, jsi naším králem, Ty jsi úhelný kámen. Jsi požehnaný Bůh, pevná skála, požehnaný na věky, požehnané je Tvoje jméno, požehnaný Syn Otce svého.:/ Pane Bože přijď k nám.
+<lyrics>.     Asus2        E
+ Pane Bože přijď k nám
+.              Asus2
+ ve své moci a slávě,
+.              F#mi7
+ přebývej mezi námi,
+.            E
+ navštiv lid svůj.
+ Přijď Ježíši k nám
+ Ty jsi hlava své církve,
+ jsi naším králem,
+ Ty jsi úhelný kámen.
  
+.           C#mi7         Ami
+ Jsi požehnaný Bůh, pevná skála,
+.       C#mi7   Ami
+ požehnaný na věky,
+.       C#mi7       Ami
+ požehnané je Tvoje jméno,
+.       G#mi7       Ami
+ požehnaný Syn Otce svého.
+ 
+.     Asus4
+ Pane Bože přijď k nám.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,19 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> /:On może, On może! Ja wiem, że On może, ja wiem, że Jezus może dopomóc i mnie.:/
- On leczył chore serca, utwierdzał chromym krok, On karmił głodnych, leczył trąd, przywracał ślepym wzrok. On może, On może! Ja wiem, że On może! Ja wiem, że Jezus może dopomóc i mnie!
+<lyrics>.   F        C        F           B
+ On może, On może! Ja wiem, że On może,
+.   F              C              F
+ ja wiem, że Jezus może dopomóc i mnie.
  
+.F7 B            Bmi
+ On leczył chore serca,
+. F
+ utwierdzał chromym krok,
+.   G                G7
+ On karmił głodnych, leczył trąd,
+.    C             C7
+ przywracał ślepym wzrok.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

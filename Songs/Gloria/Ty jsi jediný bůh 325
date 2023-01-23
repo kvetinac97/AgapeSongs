@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Ty jsi jediný bůh</title>
+<title>Ty jsi jediný Bůh</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>E</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,10 +25,27 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Ty jsi jediný Bůh, první a poslední, nikdy nebyl a nebude více nikdo jako jsi Ty.
- Ty máš největší moc, Ty jsi svrchovaný, nikdy nebyl a nebude více nikdo jako jsi Ty.
- Jsi největší ve své síle a největší ve své moci, hrozný jsi ve svém hněvu, největší ve svém milování, svatý ve všech svých skutcích, moudrý a dokonalý, nikdy nebyl a nebude více nikdo jako jsi Ty.
+<lyrics>.       E
+ Ty jsi jediný Bůh,
+.Asus2
+ první a poslední,
+.      F#mi
+ nikdy nebyl a nebude více
+.      E
+ nikdo jako jsi Ty.
+ Ty máš největší moc,
+ Ty jsi svrchovaný,
+ nikdy nebyl a nebude více
+ nikdo jako jsi Ty.
  
+ Jsi největší ve své síle
+ a největší ve své moci,
+ hrozný jsi ve svém hněvu,
+ největší ve svém milování,
+ svatý ve všech svých skutcích,
+ moudrý a dokonalý,
+ nikdy nebyl a nebude více
+ nikdo jako jsi Ty.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

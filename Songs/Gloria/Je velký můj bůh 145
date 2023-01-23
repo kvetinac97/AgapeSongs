@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,13 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> /: Je velký můj Bůh, je silný a mocný,
+<lyrics>.      G                         Emi
+ /: Je velký můj Bůh, je silný a mocný,
+.    Ami      D7   G   C G
  nic není, co neučinil. :/
+.   G              Gmaj7
  On hory stvořil a všechny řeky
+.  G6       G#dim    Ami
  a hvězdy také rozsvítil.
  Je velký můj Bůh, je silný a mocný,
  nic není, co neučinil.
@@ -38,7 +42,6 @@
  a přijde si pro mne na zem.
  Můj Bůh mne má rád, ta láska je velká,
  On Ježíše dal pro můj hřích.
- 
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

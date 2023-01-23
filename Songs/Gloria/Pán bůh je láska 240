@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Pán bůh je láska</title>
+<title>Pán Bůh je láska</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>D</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,13 +25,27 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pán Bůh je láska, dal svého Syna, Pán Bůh je láska; miluje mne.
- Ó, jak mne blaží zvěst: Pán Bůh je láska, Pán Bůh je láska, miluje mne.
- Vězel jsem v poutech strašného hříchu, z vězení svého nemoha ven. Ref.: Ó, jak mne...
- Spasitel Ježíš v oběť dal sebe, za hřích můj zmíral, splatil můj dluh. Ref.: Ó, jak mne...
- Pozval mne k sobě milosti slovem, Duchem svým svatým přitáhl mne. Ref.: Ó, jak mne...
- Lásko ty věčná, tebe chci chválit, tobě čest vzdávat, dokud jsem živ. Ref.: Ó, jak mne...
+<lyrics>.D                     G     D
+ Pán Bůh je láska, dal svého Syna,
+.           Emi    A7     D
+ Pán Bůh je láska; miluje mne.
  
+.           Emi          A7         D
+ Ó, jak mne blaží zvěst: Pán Bůh je láska,
+.H7         Emi    A7     D
+ Pán Bůh je láska, miluje mne.
+ 
+ Vězel jsem v poutech strašného hříchu,
+ z vězení svého nemoha ven.
+ 
+ Spasitel Ježíš v oběť dal sebe,
+ za hřích můj zmíral, splatil můj dluh.
+ 
+ Pozval mne k sobě milosti slovem,
+ Duchem svým svatým přitáhl mne.
+ 
+ Lásko ty věčná, tebe chci chválit,
+ tobě čest vzdávat, dokud jsem živ.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

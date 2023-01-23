@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>D</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,21 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pojď, teď je ten čas Jej chválit, pojď, své srdce můžeš Králi dát. Pojď, teď je ten čas Jej chválit, pojď, před Pánem svým teď můžeš stát, pojď.
- Každý jazyk vyzná, žes nejvyšší Pán, každý jednou poctu Ti vzdá, každý může sdílet Tvé vítězství, kde v Tobě cíl svůj má.
+<lyrics>.D                        G   D
+ Pojď, teď je ten čas Jej chválit,
+.A                     G  D  G  (D)
+ pojď, své srdce můžeš Králi dát.
+ Pojď, teď je ten čas Jej chválit,
+ pojď, před Pánem svým teď můžeš stát, pojď.
  
+.G           A7            D
+ Každý jazyk vyzná, žes nejvyšší Pán,
+.G                     D
+ každý jednou poctu Ti vzdá,
+.G                 A     Hmi
+ každý může sdílet Tvé vítězství,
+.Hmi7  Emi7          A7 A
+ kde v Tobě cíl svůj má.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

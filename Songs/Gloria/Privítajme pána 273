@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,26 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Všade tam kde sú ľudia zídení v mene Ježiš v láske zjednotení. Práve tam Boh zasľúbil, že bude prítomný, dnes viem že náš Boh je na tomto mieste prítomný:
- /:Privítajme Pána v tomto chráme, nech ho Božia sláva naplní. Svojmu Bohu spievame a hráme pieseň spasených.:/
+<lyrics>.G                D         G
+ Všade tam kde sú ľudia zídení
+ v mene Ježiš v láske zjednotení.
+.Ami           Emi
+ Práve tam Boh zasľúbil,
+.C             G
+ že bude prítomný,
+.Ami          G
+ dnes viem že náš Boh je
+.C        D
+ na tomto mieste prítomný.
  
+.C               G
+ Privítajme Pána v tomto chráme,
+.D                   G
+ nech ho Božia sláva naplní.
+.C                 G
+ Svojmu Bohu spievame a hráme
+.D           G
+ pieseň spasených.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

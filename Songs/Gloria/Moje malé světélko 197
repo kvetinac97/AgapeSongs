@@ -25,10 +25,20 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Moje malé světélko, chci aby svítilo. Moje malé světélko, chci aby svítilo, svítilo, svítilo, svítilo.
- Ďábel mi ho nezhasne, chci aby svítilo. Ďábel mi ho nezhasne, chci aby svítilo, svítilo, svítilo, svítilo.
- Všude i v ..................., chci aby svítilo. Všude i v .................., chci aby svítilo, svítilo, svítilo, svítilo.
+<lyrics>.C                                 C7
+ Moje malé světélko, chci aby svítilo.
+.F                                 C
+ Moje malé světélko, chci aby svítilo,
+.     G        C   G    C
+ svítilo, svítilo, svítilo.
  
+ Ďábel mi ho nezhasne, chci aby svítilo.
+ Ďábel mi ho nezhasne, chci aby svítilo,
+ svítilo, svítilo, svítilo.
+ 
+ Všude i v Českém Těšíně, chci aby svítilo.
+ Všude i v Českém Těšilně, chci aby svítilo,
+ svítilo, svítilo, svítilo.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

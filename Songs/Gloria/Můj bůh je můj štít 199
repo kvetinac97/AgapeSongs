@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Můj bůh je můj štít</title>
+<title>Můj Bůh je můj štít</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>D</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,10 +25,19 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Můj Bůh je můj štít, je mou písní, já vím On mi odpoví a mocí Svého jména vysvobodí.
- Chci žít ve stínu křídel Tvých, spěchám do stínu křídel Tvých, smím žít ve stínu křídel Tvých.
- Teď smím jít v pokoji dál, vím že Jsi mi blízko, haleluja.
+<lyrics>.    D          C            G         D
+ Můj Bůh je můj štít, je mou písní, já vím,
+.          C               G            D
+ On mi odpoví a mocí Svého jména vysvobodí.
  
+.     C      G            D
+ Chci žít ve stínu křídel Tvých,
+ spěchám do stínu křídel Tvých,
+ smím žít ve stínu křídel Tvých.
+.                      C
+ Teď smím jít v pokoji dál,
+.              G             D
+ vím že Jsi mi blízko, haleluja.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

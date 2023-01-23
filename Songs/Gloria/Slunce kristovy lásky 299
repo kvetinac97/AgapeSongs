@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Slunce kristovy lásky</title>
+<title>Slunce Kristovy lásky</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,15 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Slunce Kristovy lásky ať ozáří nás. Oheň Svatého Ducha ať zapálí nás.
- Ať nedoutnáme jen. Ať nezhasíná den, ve kterém se Jeho milost oslavovat má! Slunce Kristovy lásky ať ozáří nás.
+<lyrics>.G      C        D        C
+ Slunce Kristovy lásky ať ozáří nás.
+.G      C        D        C   Dsus4 D
+ Oheň Svatého Ducha ať zapálí nás.
  
+.   Emi        C       Emi       C
+ Ať nedoutnáme jen. Ať nezhasíná den,
+.Ami7         G           C         Dsus4 D7
+ ve kterém se Jeho milost oslavovat má!
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

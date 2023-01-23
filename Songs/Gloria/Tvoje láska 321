@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Tvoje láska (tvoja láska je)</title>
+<title>Tvoje láska</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,10 +25,23 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Pane můj díky Tobě dýchám, pro Tebe tu jsem. Já vím, láskou jsi mě získal teď Ti blízko jsem.
- Smutek je pryč, štěstím mě stále plníš, učíš láskou žít.
- Tvoje láska je silnější než vítr. Vyšší je nad nejvyšší štít. Hlubší je než dno oceánů. Změnila můj svět.
+<lyrics>.C    Dmi B
+ Pane můj díky Tobě dýchám,
+.C     F     B
+ pro Tebe tu jsem.
+ Já vím, láskou jsi mě získal
+ teď Ti blízko jsem.
+.Gmi       F     B
+ Smutek je pryč, štěstím mě stále plníš,
+.C    F      B
+ učíš láskou žít.
  
+.      F     B  Gmi          C
+ Tvoje láska je silnější než vítr.
+ Vyšší je nad nejvyšší štít.
+ Hlubší je než dno oceánů.
+.Dmi     B   F
+ Změnila můj svět.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

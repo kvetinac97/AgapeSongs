@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,12 +25,29 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Ráno, celý den, andělé nade mnou bdí, můj Pane. Ráno, celý den, andělé nade mnou bdí.
- Když probouzím se v nový den, andělé nade mnou bdí, můj Pane. S Tebou jdu a šťastný jsem, andělé nade mnou bdí.
- Ráno, celý den...
- Samota mne netíží, andělé nade mnou bdí, můj Pane. Nebojím se obtíží, andělé nade mnou bdí. Ref.: Ráno, celý den...
- Když je večer a jdu spát, andělé nade mnou bdí, můj Pane. Nemusím se zlého bát, andělé nade mnou bdí. Ref.: Ráno, celý den...
+<lyrics>.F
+ Ráno, celý den,
+.B                         F
+ andělé nade mnou bdí, můj Pane.
+.      A    Dmi
+ Ráno, celý den,
+.G        C7      F
+ andělé nade mnou bdí.
  
+ Když probouzím se v nový den,
+ andělé nade mnou bdí, můj Pane.
+ S Tebou jdu a šťastný jsem,
+ andělé nade mnou bdí.
+ 
+ Samota mne netíží,
+ andělé nade mnou bdí, můj Pane.
+ Nebojím se obtíží,
+ andělé nade mnou bdí.
+ 
+ Když je večer a jdu spát,
+ andělé nade mnou bdí, můj Pane.
+ Nemusím se zlého bát,
+ andělé nade mnou bdí.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

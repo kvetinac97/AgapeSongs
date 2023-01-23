@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>G</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,11 +25,29 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Já jdu tam do Boží země, kde vládne jas, já jdu tam do Boží země, kde vládne jas, já jdu tam do Boží země, kde vládne jas, kde je na věky mír.
- /:Pane můj, Pane můj, do nebe mne veď.:/,3x kde je na věky mír.
- Pán Ježíš mi bude světlem na cestě mé, Pán Ježíš mi bude světlem na cestě mé, Pán Ježíš mi bude světlem na cestě mé, kde je na věky mír. Ref.: Pane...
- Slávou bude korunován, kdo nesl kříž, slávou bude korunován, kdo nesl kříž, slávou bude korunován, kdo nesl kříž, kde je na věky mír. Ref.: Pane...
+<lyrics>.G                                     G7
+ Já jdu tam do Boží země, kde vládne jas,
+.C                        G
+ já jdu tam do Boží země, kde vládne jas,
+.                         H7         Emi A
+ já jdu tam do Boží země, kde vládne jas,
+.G      D7      G
+ kde je na věky mír.
  
+.G                               G7
+ Pane můj, Pane můj, do nebe mne veď
+.C                   G           D7
+ Pane můj, Pane můj, do nebe mne veď
+.G                   H7          Emi A
+ Pane můj, Pane můj, do nebe mne veď
+.G      D7      G C G
+ kde je na věky mír.
+ 
+ Pán Ježíš mi bude světlem na cestě mé
+ kde je na věky mír.
+ 
+ Slávou bude korunován, kdo nesl kříž,
+ kde je na věky mír.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

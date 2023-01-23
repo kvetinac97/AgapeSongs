@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Vcházejte, plesejme (vojdite, plesajme)</title>
+<title>Agnus dei</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -25,11 +25,29 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> /:Vcházejte, plesejme, chvalozpěvy zpívejme.:/ Předstupme před Hospodina s díkůvzdáním radostným. Předstupme před Hospodina s díkůvzdáním radostným.
- /:Bůh stvořil moře, zem a všechno, co živé je,:/ Jeho dílem jsou hlubiny, všechny světa dálavy, Jeho dílem jsou hlubiny, všechny světa dálavy.
- /:Hospodin je náš Bůh, my jsme Jeho pastvy lid,:/ nezatvrzujme svá srdce, poslouchejme Jeho hlas, nezatvrzujme svá srdce, poslouchejme Jeho hlas.
- Vcházejme, plesejme, chvalozpěvy zpívejme, vcházejme, plesejme, chvalozpěvy zpívejme. Skloňme se před Hospodinem, poklekněme v pokoře, skloňme se před Hospodinem, poklekněme v pokoře.
+<lyrics>.C             F
+ Haleluja, haleluja,
+.                       C
+ neboť Pán Bůh a Král vládne nám.
  
+.C   F     G  C   G  C
+ Haleluja, Svatý, Svatý!
+.       C                G
+ Je náš Pán Bůh, Všemohoucí.
+.         F
+ Hoden je náš Pán, hoden je náš Pán
+.             C
+ přijmout chválu, Svatý
+.                        G
+ je náš Pán Bůh, Všemohoucí.
+.F
+ Hoden je náš Pán, hoden je náš Pán.
+.C
+ Amen!
+ 
+ Jsi náš Pán Bůh, Všemohoucí.
+ Přijmi, Pane náš, přijmi Pane náš
+ naši chválu, Svatý
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

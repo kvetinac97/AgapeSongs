@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,10 +25,18 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> /:Chci oslavovat svého Pána, chci Mu zpívat novou píseň.:/
- /:Chci Ho chválit, chci Mu zpívat novou píseň.:/
- /:Haleluja, haleluja, haleluja, haleluja, haleluja, haleluja:/
+<lyrics>.Dmi            Gmi
+ Chci oslavovat svého Pána,
+.A7                   Dmi Gmi A7
+ chci Mu zpívat novou píseň.
  
+.Dmi  Gmi C   F
+ Chci Ho  chválit,
+.A       A7           Dmi Gmi A7
+ chci Mu zpívat novou píseň.
+ 
+ Haleluja, haleluja, haleluja,
+ haleluja, haleluja, haleluja.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

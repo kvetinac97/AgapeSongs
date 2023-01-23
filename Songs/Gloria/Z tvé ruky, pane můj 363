@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Z tvé ruky, pane můj</title>
+<title>Z tvé ruky, Pane můj</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>F</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,9 +25,33 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Z tvé ruky, Pane můj, co dáváš, chci vzít. Ty líp nežli já víš, co mi prospívá, co přebývá a schází. Z tvé ruky, Pane můj, co dáváš, chci vzít. Ty líp než já víš, co vede k Tobě blíž. Haleluja.
- Stůj při mně, když se zdá, že krátí se den. Ty líp než já víš, kdy se rozednívá, kdy začít má tvé ráno. Stůj při mně, když se zdá, že krátí se den. A půjdu-li tmou, Ty uchop ruku mou. Haleluja.
+<lyrics>.F     C          Dmi
+ Z tvé ruky, Pane můj,
+.   B C         F
+ co dáváš, chci vzít.
+.   B         C
+ Ty líp nežli já víš,
+.A           Dmi
+ co mi prospívá,
+.   B    G7   F   C
+ co přebývá a schází.
+ Z tvé ruky, Pane můj,
+ co dáváš, chci vzít.
+ Ty líp než já víš,
+ co vede k Tobě blíž.
+.Gmi C F
+ Haleluja.
  
+ Stůj při mně, když se zdá,
+ že krátí se den.
+ Ty líp než já víš,
+ kdy se rozednívá,
+ kdy začít má tvé ráno.
+ Stůj při mně, když se zdá,
+ že krátí se den.
+ A půjdu-li tmou,
+ Ty uchop ruku mou.
+ Haleluja.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>

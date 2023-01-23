@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-<title>Má pán ježíš, má mě rád</title>
+<title>Má Pán Ježíš, má mě rád</title>
 <author></author>
 <copyright></copyright>
 <presentation></presentation>
@@ -16,7 +16,7 @@
 <user1></user1>
 <user2></user2>
 <user3></user3>
-<key>C</key>
+<key>A</key>
 <aka></aka>
 <key_line></key_line>
 <books></books>
@@ -25,11 +25,39 @@
 <pitch></pitch>
 <restrictions></restrictions>
 <notes></notes>
-<lyrics> Má Pán Ježíš, má mě rád, praví Písmo nastokrát. Všecky děti, jak jen jsou, srdci jeho zálibou. Má Pán Ježíš, má mě rád; praví Písmo nastokrát.
- Má mě rád, neb krví svou vykoupil též duši mou. Odpustí mi každý hřích, když se v pravdě kaju z nich. Má Pán Ježíš, má mě rád; praví Písmo nastokrát.
- Má mě rád a v nemoci, když již nikde pomoci, jako strážce při mně dlí, říká: Já tě miluji! Má Pán Ježíš, má mě rád; praví Písmo nastokrát.
- Má mě rád! On, Pastýř můj, ze mne nespustí zrak svůj. Já-li jeho zůstanu, do nebe se dostanu. Má Pán Ježíš, má mě rád; praví Písmo nastokrát.
+<lyrics>.A             D     A
+ Má Pán Ježíš, má mě rád,
+.      D     E7   A
+ praví Písmo nastokrát.
+.             E7
+ Všecky děti, jak jen jsou,
+.A          E7
+ srdci jeho zálibou.
+.A             D     A
+ Má Pán Ježíš, má mě rád;
+.      D     E    A
+ praví Písmo nastokrát.
  
+ Má mě rád, neb krví svou
+ vykoupil též duši mou.
+ Odpustí mi každý hřích,
+ když se v pravdě kaju z nich.
+ Má Pán Ježíš, má mě rád;
+ praví Písmo nastokrát.
+ 
+ Má mě rád a v nemoci,
+ když již nikde pomoci,
+ jako strážce při mně dlí,
+ říká: Já tě miluji!
+ Má Pán Ježíš, má mě rád;
+ praví Písmo nastokrát.
+ 
+ Má mě rád! On, Pastýř můj,
+ ze mne nespustí zrak svůj.
+ Já-li jeho zůstanu,
+ do nebe se dostanu.
+ Má Pán Ježíš, má mě rád;
+ praví Písmo nastokrát.
 </lyrics>
 <linked_songs></linked_songs>
 <pad_file>Auto</pad_file>
