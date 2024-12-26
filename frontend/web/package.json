@@ -11,7 +11,7 @@
   "dependencies": {
     "@babel/plugin-transform-private-methods": "^7.22.5",
     "@mdi/font": "5.9.55",
-    "axios": "^1.6.7",
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
     "pinia": "^2.1.6",
     "pinia-plugin-persistedstate": "^3.2.0",
