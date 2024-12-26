@@ -44,5 +44,5 @@ Od prosince 2024 je projekt **open-source** pod licencí GPL, to znamená, že v
 jsou veřejné a otevřené ke změnám.
 
 Ve složce **backend** naleznete zdrojový kód backendu.
-
-
+Ve složkách **frontend/app** zdrojový kód iOS/macOS aplikace, **frotend/lite** Android aplikace,
+**frontend/web** webové verze.

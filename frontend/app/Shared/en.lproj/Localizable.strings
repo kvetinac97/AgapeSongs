@@ -1,0 +1,197 @@
+/* 
+  Localizable.strings
+  AgapeSongs
+
+  Created by Ondřej Wrzecionko on 03.04.2022.
+*/
+
+// General
+
+"button_back" = "Back";
+"button_close" = "Close";
+"button_ok" = "OK";
+"button_submit" = "Submit";
+"button_yes" = "Yes";
+"button_no" = "No";
+"button_try_again" = "Try again";
+"button_try_again" = "Save offline";
+"button_changed_mind" = "I changed my mind";
+"button_delete" = "Delete";
+
+"loading_failed" = "Loading failed: ";
+"settings" = "Settings";
+
+// Band
+
+"band_list" = "Bands";
+"band_list_empty" = "You're not member of any band.";
+"join_create_band" = "Create new / Join existing band";
+"band_leader_list" = "Leaders";
+"band_member_list" = "Members";
+"band_list_choose_band" = "Select a band from list on the left";
+
+"default_band" = "Default band";
+"no_band_selected" = "No band";
+
+"band_create_or_join" = "Create or join band";
+"band_edit" = "Edit band";
+"band_name" = "Name";
+"band_secret" = "Band secret";
+"band_secret_information" = "Band secret is a short string that allows anyone to join your band.\nIf you want to join other band, fill in that band name and code.";
+"band_settings" = "Band settings";
+"band_qr_image" = "Band QR Code";
+"band_hidden" = "Hide band song books locally from song book list";
+
+"band_create_join_success" = "Band created/joined successfully.";
+"band_create_join_failure" = "Band creation/joining failed: ";
+"band_edit_success" = "Band edited successfully.";
+"band_edit_failure" = "Band editing failed: ";
+"band_join_success" = "Band joined successfully.";
+"band_join_error" = "Band joining failed: ";
+
+"band_member_create" = "Create band member";
+"band_member_create_name" = "Name";
+"band_member_create_email" = "E-mail";
+"band_member_create_role" = "Role";
+"band_member_create_success" = "Band member has been added successfully.";
+"band_member_create_failure" = "An error happened while trying to create band member: ";
+
+"band_member_leave_confirm" = "Do you really want to leave this band? This action cannot be undone. After leaving, you'll have to log in again.";
+"band_member_delete_confirm" = "Do you really want to delete band member ";
+"band_member_delete_success" = "Band member has been deleted successfully.";
+"band_member_delete_failure" = "An error happened while trying to delete band member: ";
+
+"band_member_change_role_confirm" = "Do you really want to change role of ";
+"band_member_change_role_to" = " to ";
+"band_member_change_role_success" = "Band member role has been changed successfully.";
+"band_member_change_role_failure" = "An error happened while trying to change band member role: ";
+
+"band_member_me" = "(me)";
+"band_role_leader" = "Leader";
+"band_role_musician" = "Musician";
+"band_role_singer" = "Singer";
+
+// Settings
+
+"chord_settings" = "Chords";
+"chord_setting_key" = "By song key";
+"chord_setting_sharps" = "Always sharps (C#, F#, G#)";
+"chord_setting_flats" = "Always flats (Db, Gb, Ab)";
+"chord_setting_hidden" = "Hidden";
+
+"size_settings" = "Size";
+"floating_mode" = "Floating window (experimental)";
+"account_settings" = "Account settings";
+
+"account_delete" = "Delete account";
+"account_delete_confirm" = "Do you really wish to delete your account and all personal data? This action is irreversible!";
+
+// Login
+
+"login" = "Login";
+"logout" = "Log out";
+
+// Song
+
+"no_song_selected" = "No song selected. You can select one from menu on the left.";
+"cannot_create_song" = "You're not Musician in any band, so you cannot create a song.";
+"song_add_to_playlist" = "Add to playlist";
+"song_export_opensong" = "Export to OpenSong";
+"song_export_pdf" = "Export for printing";
+
+"song_create_success" = "Song created successfully";
+"song_create" = "New song";
+"song_create_default_text" = ".A       F\n Chords start with dot\n Text starts with space";
+
+"song_edit_success" = "Song edited successfully";
+"song_edit" = "Edit song";
+
+"song_delete_confirm" = "Do you really want to delete the song ";
+"song_delete_success" = "Song has been successfully deleted.";
+"song_delete_error" = "An error occured while trying to delete song: ";
+
+"song_name" = "Name";
+"song_number" = "Number";
+"song_songbook" = "Songbook";
+"song_key" = "Key";
+"song_bpm" = "BPM";
+"song_beat" = "Beat";
+"song_default_capo" = "Default capo";
+"song_note" = "Note";
+"song_chords_text" = "Chords and text";
+
+"song_settings_song" = "Song";
+"song_settings_capo" = "Capo ";
+"song_settings_edit" = "Edit song";
+"song_settings_font_size" = "Text size";
+
+"song_metronome_on" = "Enable metronome";
+"song_metronome_off" = "Disable metronome";
+
+// SongBook
+
+"songbook_list" = "Songbooks";
+"songbook_list_empty" = "No songbooks.";
+
+"songbook_filter_songbooks" = "Songbooks";
+"songbook_filter_actions" = "Actions";
+"songbook_filter_hide_all" = "Hide all";
+"songbook_filter_show_all" = "Show all";
+"songbook_filter_reload" = "Reload songbooks";
+
+"cannot_create_songbook" = "You're not leader of any band, so you cannot create a song book. Join existing band / create new in Settings.";
+
+"songbook_create_success" = "Songbook created successfully";
+"songbook_create" = "New songbook";
+
+"songbook_edit_success" = "Songbook edited successfully";
+"songbook_edit" = "Edit songbook";
+
+"songbook_delete_confirm" = "Do you really want to delete the song book ";
+"songbook_delete_success" = "Song book has been successfully deleted.";
+"songbook_delete_error" = "An error occured while trying to delete song book: ";
+
+"could_not_save_songs" = "Could not upload offline edits for following songs (precondition failed): ";
+
+"songbook_name" = "Name";
+"songbook_band" = "Band";
+
+"songbook_empty" = "No songs";
+"songbook_search" = "Search";
+"songbook_songs" = "Songs";
+
+"playlist" = "Playlist";
+
+"playlist_upload_choose_band" = "Choose a band to upload playlist to";
+"playlist_upload_not_leader" = "You're not leader of any band, so you don't have a band to upload playlist to";
+"playlist_upload_success" = "Playlist has been uploaded successfully";
+"playlist_upload_failure" = "An error happened while trying to upload playlist: ";
+
+"playlist_download_choose_band" = "Choose a band to download playlist from";
+"playlist_download_not_leader" = "You're not member of any band, so you don't have a band to download playlist from";
+"playlist_download_success" = "Playlist has been downloaded successfully";
+"playlist_download_failure" = "An error happened while trying to download playlist: ";
+"playlist_delete_confirm" = "Do you really wish to clear playlist on your device?";
+
+// Parse errors
+
+"band_list_response_parse_error" = "Could not parse Band list from response";
+"band_member_response_parse_error" = "Could not parse Band member from response";
+"user_response_parse_error" = "Could not parse User from response";
+"song_response_parse_error" = "Could not parse Song from response";
+"song_note_response_parse_error" = "Could not parse Song note from response";
+"playlist_response_parse_error" = "Could not parse Playlist from response";
+"songbook_list_response_parse_error" = "Could not parse SongBook list from response";
+"songbook_response_parse_error" = "Could not parse SongBook from response";
+
+// Network errors
+
+"invalid_request_url_error" = "Invalid request URL";
+"no_connection_error" = "You're not connected to the internet";
+"apple_auth_error" = "Error while trying to communicate with Apple servers";
+"http_error_400" = "Invalid request";
+"http_error_401" = "App inconsistency happened. Please log out and log back in";
+"http_error_403" = "You are not allowed to perform this operation";
+"http_error_404" = "The requested entity was not found";
+"http_error_500" = "Server unavailable right now. Please try again later";
+"http_error_503" = "Service is currently unavailable. Please try again later";

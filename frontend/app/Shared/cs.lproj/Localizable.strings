@@ -1,0 +1,197 @@
+/* 
+  Localizable.strings
+  AgapeSongs
+
+  Created by Ondřej Wrzecionko on 03.04.2022.
+*/
+
+// Obecné
+
+"button_back" = "Zpět";
+"button_close" = "Zavřít";
+"button_ok" = "OK";
+"button_submit" = "Odeslat";
+"button_yes" = "Ano";
+"button_no" = "Ne";
+"button_try_again" = "Zkusit znovu";
+"button_offline" = "Uložit offline";
+"button_changed_mind" = "Nechci smazat účet";
+"button_delete" = "Smazat";
+
+"loading_failed" = "Načítání selhalo: ";
+"settings" = "Nastavení";
+
+// Band
+
+"band_list" = "Kapely";
+"band_list_empty" = "Nejsi členem žádné kapely.";
+"join_create_band" = "Vytvořit novou / Připojit se k existující kapele";
+"band_leader_list" = "Vedoucí";
+"band_member_list" = "Členové";
+"band_list_choose_band" = "Vyber si kapelu ze seznamu napravo";
+
+"default_band" = "Výchozí kapela";
+"song_note" = "Poznámka";
+"no_band_selected" = "Žádná";
+
+"band_create_or_join" = "Vytvořit kapelu / připojit se";
+"band_edit" = "Upravit kapelu";
+"band_name" = "Jméno";
+"band_secret" = "Připojovací kód";
+"band_secret_information" = "Připojovací kód je krátký text, který umožní komukoliv se připojit do tvé kapely.\nPokud se chceš připojit do existující kapely, napiš zde její jméno a kód, které ti sdělí její vedoucí.";
+
+"band_create_join_success" = "Kapela byla úspěšně vytvořena / Připojení úspěšné";
+"band_create_join_failure" = "Vytvoření/připojení se ke kapele selhalo: ";
+"band_edit_success" = "Kapela byla úspěšně upravena.";
+"band_edit_failure" = "Úprava kapely selhala: ";
+"band_join_success" = "Připojení do kapely bylo úspěšné.";
+"band_join_error" = "Připojení do kapely selhalo: ";
+"band_settings" = "Nastavení kapely";
+"band_qr_image" = "QR kód kapely";
+"band_hidden" = "Schovat zpěvníky kapely v seznamu zpěvníků (na tomto zařízení)";
+
+"band_member_create" = "Přidat člena kapely";
+"band_member_create_name" = "Jméno";
+"band_member_create_email" = "E-mail";
+"band_member_create_role" = "Role";
+"band_member_create_success" = "Člen kapely byl úspěšně přidán.";
+"band_member_create_failure" = "Při přidávání člena kapely nastala následující chyba: ";
+
+"band_member_leave_confirm" = "Opravdu chceš opustit tuto kapelu? Tato akce je nevratná. Po opuštění budeš z bezpečnostních důvodů odhlášen.";
+"band_member_delete_confirm" = "Opravdu chceš odebrat člena kapely ";
+"band_member_delete_success" = "Člen kapely byl úspěšně odebrán.";
+"band_member_delete_failure" = "Při odebírání člena kapely nastala následující chyba: ";
+
+"band_member_change_role_confirm" = "Opravdu chceš změnit roli člena kapely ";
+"band_member_change_role_to" = " na ";
+"band_member_change_role_success" = "Role člena kapely byla úspěšně změněna.";
+"band_member_change_role_failure" = "Při změně role člena kapely nastala následující chyba: ";
+
+"band_member_me" = "(já)";
+"band_role_leader" = "Vedoucí";
+"band_role_musician" = "Hudebník";
+"band_role_singer" = "Zpěvák";
+
+// Settings
+
+"chord_settings" = "Akordy";
+"chord_setting_key" = "Podle tóniny";
+"chord_setting_sharps" = "Vždy křížky (C#, F#, G#)";
+"chord_setting_flats" = "Vždy béčka (Db, Gb, Ab)";
+"chord_setting_hidden" = "Nezobrazovat";
+
+"size_settings" = "Velikost";
+"floating_mode" = "Plovoucí okno (experimentální)";
+"account_settings" = "Nastavení účtu";
+
+"account_delete" = "Smazat účet";
+"account_delete_confirm" = "Opravdu si přeješ smazat tvůj účet a osobní údaje? Tato akce je nevratná!";
+
+// Login
+
+"login" = "Přihlášení";
+"logout" = "Odhlásit se";
+
+// Song
+
+"no_song_selected" = "Žádná píseň nebyla vybrána. Vyber ji z menu vlevo.";
+"cannot_create_song" = "Nejsi hudebníkem v žádné kapele, nemůžeš tedy přidat píseň.";
+"song_add_to_playlist" = "Přidat do playlistu";
+"song_export_opensong" = "Export do OpenSongu";
+"song_export_pdf" = "Export k tisku";
+
+"song_create_success" = "Píseň úspěšně přidána";
+"song_create" = "Nová píseň";
+"song_create_default_text" = ".A       F\n Akordy začínají tečkou\n Text začíná mezerou";
+
+"song_edit_success" = "Píseň byla úspěšně upravena";
+"song_edit" = "Upravit píseň";
+
+"song_delete_confirm" = "Opravdu chceš odebrat píseň ";
+"song_delete_success" = "Píseň byla úspěšně odebrána.";
+"song_delete_error" = "Při odebrání písně nastala následující chyba: ";
+
+"song_name" = "Jméno";
+"song_number" = "Číslo";
+"song_songbook" = "Zpěvník";
+"song_key" = "Tónina";
+"song_bpm" = "Tempo";
+"song_beat" = "Takt";
+"song_default_capo" = "Výchozí capo";
+"song_chords_text" = "Akordy a text";
+
+"song_settings_song" = "Píseň";
+"song_settings_capo" = "Capo ";
+"song_settings_edit" = "Upravit píseň";
+"song_settings_font_size" = "Velikost textu";
+
+"song_metronome_on" = "Zapnout metronom";
+"song_metronome_off" = "Vypnout metronom";
+
+// SongBook
+
+"songbook_list" = "Zpěvníky";
+"songbook_list_empty" = "Žádné zpěvníky.";
+
+"songbook_filter_songbooks" = "Zpěvníky";
+"songbook_filter_actions" = "Akce";
+"songbook_filter_hide_all" = "Skrýt vše";
+"songbook_filter_show_all" = "Zobrazit vše";
+"songbook_filter_reload" = "Znovu načíst zpěvníky";
+
+"cannot_create_songbook" = "Nejsi členem žádné kapely, nemůžeš tedy přidat zpěvník. Připoj se k existující kapele / vytvoř novou v Nastavení.";
+
+"songbook_create_success" = "Zpěvník úspěšně přidán";
+"songbook_create" = "Nový zpěvník";
+
+"songbook_edit_success" = "Zpěvník úspěšně upraven";
+"songbook_edit" = "Upravit zpěvník";
+
+"songbook_delete_confirm" = "Opravdu chceš odebrat zpěvník ";
+"songbook_delete_success" = "Zpěvník byl úspěšně odebrán.";
+"songbook_delete_error" = "Při odebírání zpěvníku nastala následující chyba: ";
+
+"could_not_save_songs" = "Nepodařilo se uložit offline úpravy pro následující písně (konflikt se stávající verzí na serveru): ";
+
+"songbook_name" = "Jméno";
+"songbook_band" = "Kapela";
+
+"songbook_empty" = "Žádné písně";
+"songbook_search" = "Hledat";
+"songbook_songs" = "Písně";
+
+"playlist" = "Playlist";
+
+"playlist_upload_choose_band" = "Vyber kapelu pro nahrání playlistu";
+"playlist_upload_not_leader" = "Nejsi vedoucím žádné kapely, nemáš tedy kam nahrát playlist";
+"playlist_upload_success" = "Playlist byl úspěšně nahrán";
+"playlist_upload_failure" = "Při nahrávání playlistu nastala následující chyba: ";
+
+"playlist_download_choose_band" = "Vyber kapelu pro stažení playlistu";
+"playlist_download_not_leader" = "Nejsi členem žádné kapely, nemáš tedy odkud stáhnout playlist";
+"playlist_download_success" = "Playlist byl úspěšně stažen";
+"playlist_download_failure" = "Při stahování playlistu nastala následující chyba: ";
+"playlist_delete_confirm" = "Opravdu chcete smazat playlist na tomto zařízení?";
+
+// Parse errors
+
+"band_list_response_parse_error" = "Nepodařilo se ze serveru načíst seznam kapel";
+"band_member_response_parse_error" = "Nepodařilo se ze serveru načíst kapelu";
+"user_response_parse_error" = "Nepodařilo se ze serveru načíst uživatele";
+"song_response_parse_error" = "Nepodařilo se ze serveru načíst píseň";
+"song_note_response_parse_error" = "Nepodařilo se ze serveru načíst poznámku k písni";
+"playlist_response_parse_error" = "Nepodařilo se ze serveru načíst playlist";
+"songbook_list_response_parse_error" = "Nepodařilo se ze serveru načíst seznam zpěvníků";
+"songbook_response_parse_error" = "Nepodařilo se ze serveru načíst zpěvník";
+
+// Network errors
+
+"invalid_request_url_error" = "Neplatná adresa API";
+"no_connection_error" = "Nejsi připojen k internetu / tvé připojení je příliš pomalé";
+"apple_auth_error" = "Chyba při snaze o připojení k Apple serveru";
+"http_error_400" = "Neplatný požadavek";
+"http_error_401" = "Mezi aplikací a API nastala nekonzistence. Prosím odhlaš se a znovu přihlaš";
+"http_error_403" = "Nemáš právo provést tuto akci";
+"http_error_404" = "Požadovaná stránka nebyla nalezena";
+"http_error_500" = "Server je právě nedostupný. Zkus to později";
+"http_error_503" = "Služba je právě nedostupná. Zkus to později";

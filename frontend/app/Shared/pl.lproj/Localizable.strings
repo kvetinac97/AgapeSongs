@@ -1,0 +1,197 @@
+/* 
+  Localizable.strings
+  AgapeSongs
+
+  Created by Ondřej Wrzecionko on 03.04.2022.
+  
+*/
+
+// General
+
+"button_back" = "Z powrotem";
+"button_close" = "Zamknąć";
+"button_ok" = "OK";
+"button_submit" = "Przesłać";
+"button_yes" = "Tak";
+"button_no" = "Nie";
+"button_try_again" = "Spróbuj jeszcze raz";
+"button_offline" = "Zapisać offline";
+"button_changed_mind" = "Nie chcę usuwać mojego konta";
+"button_delete" = "Usunąć";
+
+"loading_failed" = "Nie udało się wczytać: ";
+"settings" = "Ustawienia";
+
+// Band
+
+"band_list" = "Zespoły";
+"band_list_empty" = "Nie jesteś członkiem żadnego zespołu.";
+"join_create_band" = "Utwórz nowy / Dołącz do istniejącego zespołu";
+"band_leader_list" = "Liderzy";
+"band_member_list" = "Członkowie";
+"band_list_choose_band" = "Wybierz zespół z listy po prawej stronie";
+
+"default_band" = "Domyślny zespół";
+"no_band_selected" = "Żaden";
+
+"band_create_or_join" = "Utwórz zespół / dołącz do zespołu";
+"band_edit" = "Edytuj zespół";
+"band_name" = "Imię";
+"band_secret" = "Kod połączenia";
+"band_secret_information" = "Kod dołączenia to krótki tekst, który pozwala każdemu dołączyć do zespołu.\nJeśli chcesz dołączyć do istniejącego zespołu, wprowadź nazwę zespołu i kod, który zostanie ci przekazany przez lidera zespołu.";
+
+"band_create_join_success" = "Zespół utworzony / dołączenie do zespołu pomyślnie.";
+"band_create_join_failure" = "Tworzenie/połączenie zespołu nie powiodło się: ";
+"band_edit_success" = "Zespół edytowany pomyślnie.";
+"band_edit_failure" = "Edycja zespołu nie powiodła się: ";
+"band_join_success" = "Dołączenie do zespołu pomyślnie.";
+"band_join_error" = "Połączenie zespołu nie powiodło się: ";
+"band_settings" = "Ustawienia zespólu";
+"band_qr_image" = "QR kód zespólu";
+"band_hidden" = "Ukryj lokalne śpiewniki zespołu na liście śpiewników";
+
+"band_member_create" = "Dodaj członka zespołu";
+"band_member_create_name" = "Imię";
+"band_member_create_email" = "E-mail";
+"band_member_create_role" = "Rola";
+"band_member_create_success" = "Członek zespołu został pomyślnie dodany.";
+"band_member_create_failure" = "Podczas dodawania członka zespołu wystąpił następujący błąd: ";
+
+"band_member_leave_confirm" = "Czy naprawdę chcesz opuścić ten zespół? Ta promocja nie podlega zwrotowi. Po wyjściu zostaniesz wylogowany ze względów bezpieczeństwa.";
+"band_member_delete_confirm" = "Czy na pewno chcesz usunąć członka zespołu ";
+"band_member_delete_success" = "Członek zespołu został pomyślnie usunięty.";
+"band_member_delete_failure" = "Podczas usuwania członka zespołu wystąpił następujący błąd: ";
+
+"band_member_change_role_confirm" = "Naprawdę chcesz zmienić rolę członka zespołu ";
+"band_member_change_role_to" = " na ";
+"band_member_change_role_success" = "Rola członka zespołu została pomyślnie zmieniona.";
+"band_member_change_role_failure" = "Podczas zmiany roli członka zespołu wystąpił następujący błąd: ";
+
+"band_member_me" = "(ja)";
+"band_role_leader" = "Lider";
+"band_role_musician" = "Muzykant";
+"band_role_singer" = "Śpiewak";
+
+// Settings
+
+"chord_settings" = "Chwyty";
+"chord_setting_key" = "Według tonu";
+"chord_setting_sharps" = "Zawsze krzyże (C#, F#, G#)";
+"chord_setting_flats" = "Zawsze beczka (Db, Gb, Ab)";
+"chord_setting_hidden" = "Nie pokazuj";
+
+"size_settings" = "Rozmiar";
+"floating_mode" = "Pływające okno (eksperymentalne)";
+"account_settings" = "Ustawienia konta";
+
+"account_delete" = "Usuń konto";
+"account_delete_confirm" = "Czy naprawdę chcesz usunąć swoje konto i dane osobowe? Ta czynność nie podlega zwrotowi!";
+
+// Login
+
+"login" = "Zalogowanie";
+"logout" = "Wyloguj sie";
+
+// Song
+
+"no_song_selected" = "Nie wybrano żadnego utworu. Wybierz go z menu po lewej stronie.";
+"cannot_create_song" = "Nie jesteś muzykiem w żadnym zespole, więc nie możesz dodać piosenki. Dołącz do istniejącego zespołu / utwórz nowy w Ustawieniach.";
+"song_add_to_playlist" = "Dodaj do playlistu";
+"song_export_opensong" = "Eksportuj do OpenSongu";
+"song_export_pdf" = "Eksportuj do druku";
+
+"song_create_success" = "Pomyślnie dodano utwór";
+"song_create" = "Nowa piosenka";
+"song_create_default_text" = ".A       F\n Akordy zaczynają się od kropki\n Tekst zaczyna się od spacji";
+
+"song_edit_success" = "Piosenka została pomyślnie zredagowana";
+"song_edit" = "Edytuj piosenkę";
+
+"song_delete_confirm" = "Naprawdę chcesz usunąć piosenkę ";
+"song_delete_success" = "Piosenka została pomyślnie usunięta.";
+"song_delete_error" = "Podczas usuwania utworu wystąpił następujący błąd: ";
+
+"song_name" = "Imię";
+"song_number" = "Numer";
+"song_songbook" = "Śpiewnik";
+"song_key" = "Ton";
+"song_bpm" = "Tempo";
+"song_beat" = "Rytm";
+"song_default_capo" = "Domyślne capo";
+"song_note" = "Notatka";
+"song_chords_text" = "Chwyty i tekst";
+
+"song_settings_song" = "Piosenka";
+"song_settings_capo" = "Capo ";
+"song_settings_edit" = "Edytuj piosenkę";
+"song_settings_font_size" = "Rozmiar tekstu";
+
+"song_metronome_on" = "Włącz metronom";
+"song_metronome_off" = "Wyłącz metronom";
+
+// SongBook
+
+"songbook_list" = "Śpiewniki";
+"songbook_list_empty" = "Brak śpiewników.";
+
+"songbook_filter_songbooks" = "Śpiewniki";
+"songbook_filter_actions" = "Akcja";
+"songbook_filter_hide_all" = "Ukryj wszystko";
+"songbook_filter_show_all" = "Pokaż wszystko";
+"songbook_filter_reload" = "Przeładować śpiewniki";
+
+"cannot_create_songbook" = "Nie jesteś członkiem żadnego zespołu, więc nie możesz dodać śpiewnika.";
+
+"songbook_create_success" = "Śpiewnik został pomyślnie dodany";
+"songbook_create" = "Nowy śpiewnik";
+
+"songbook_edit_success" = "Śpiewnik pomyślnie edytowany";
+"songbook_edit" = "Edytuj śpiewnik";
+
+"songbook_delete_confirm" = "Naprawdę chcesz usunąć śpiewnik ";
+"songbook_delete_success" = "Śpiewnik został pomyślnie usunięty.";
+"songbook_delete_error" = "Podczas usuwania śpiewnika wystąpił następujący błąd: ";
+
+"could_not_save_songs" = "Nie udało się zapisać edycji offline dla następujących utworów (konflikt z istniejącą wersją na serwerze): ";
+
+"songbook_name" = "Imię";
+"songbook_band" = "Zespół";
+
+"songbook_empty" = "Brak piosenek";
+"songbook_search" = "Szukać";
+"songbook_songs" = "Piosenki";
+
+"playlist" = "Playlist";
+
+"playlist_upload_choose_band" = "Wybierz zespół, aby przesłać playlistu";
+"playlist_upload_not_leader" = "Nie jesteś liderem żadnego zespołu, więc nie masz gdzie nagrywać playlisty";
+"playlist_upload_success" = "Playlista pomyślnie przesłana";
+"playlist_upload_failure" = "Podczas wczytywania playlisty wystąpił następujący błąd: ";
+
+"playlist_download_choose_band" = "Wybierz zespół, aby pobrać playlistu";
+"playlist_download_not_leader" = "Nie jesteś członkiem żadnego zespołu, więc nie masz gdzie pobrać playlisty";
+"playlist_download_success" = "Pomyślnie pobrano playlistę";
+"playlist_download_failure" = "Podczas pobierania playlisty wystąpił następujący błąd: ";
+"playlist_delete_confirm" = "Naprawdę chcesz usunąć śpiewnik playlist na urządzeniu?";
+
+// Parse errors
+
+"band_list_response_parse_error" = "Nie udało się pobrać listy zespół z serwera";
+"band_member_response_parse_error" = "Nie udało się wczytać zespół z serwera";
+"user_response_parse_error" = "Nie udało się załadować użytkownika z serwera";
+"song_response_parse_error" = "Nie udało się wczytać utworu z serwera";
+"song_note_response_parse_error" = "Nie udało się wczytać notatki z serwera";
+"playlist_response_parse_error" = "Nie udało się wczytać playlisty z serwera";
+"songbook_list_response_parse_error" = "Nie udało się pobrać listy śpiewników z serwera";
+"songbook_response_parse_error" = "Nie udało się wczytać śpiewnika z serwera";
+
+// Network errors
+
+"invalid_request_url_error" = "Nieprawidłowy adres API";
+"no_connection_error" = "Nie masz połączenia z internetem";
+"apple_auth_error" = "Błąd podczas próby połączenia z serwerem Apple";
+"http_error_400" = "Nieprawidłowe żądanie";
+"http_error_401" = "Istnieje niespójność między aplikacją a interfejsem API. Wyloguj się i zaloguj ponownie";
+"http_error_403" = "Nie masz prawa wykonać tej czynności";
+"http_error_404" = "Żądana strona nie została znaleziona";
+"http_error_500" = "Serwer jest obecnie niedostępny. Spróbuj ponownie później";
